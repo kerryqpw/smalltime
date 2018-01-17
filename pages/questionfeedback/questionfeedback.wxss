@@ -1,0 +1,53 @@
+/* pages/questionfeedback/questionfeedback.wxss */
+
+page{
+  background: #efeff4;
+}
+
+.item{
+  width: 100vw;height: 12vw;background: #fff;
+  margin-top: 0.4vw;position: relative;
+}
+
+.itemtag{
+  position: absolute;left: 3.33vw;top:3.13vw;font-size: 3.73vw;
+}
+
+.username{
+  position: absolute;left: 22.33vw;top:2.93vw;font-size: 3.23vw;
+}
+
+.phone{
+   position: absolute;left: 22.33vw;top:2.93vw;font-size: 3.23vw;
+}
+
+    .questioninfo{
+   width: 91.6vw;height: 49.33vw;margin-top: 0.4vw;background: #fff;
+   font-size: 3.86vw;padding-left: 8.4vw;padding-top: 4.93vw;
+} 
+
+ .submitbutton{
+  width: 100vw;height: 12vw;background: #fff;margin-top: 0.93vw;
+  text-align: center
+}   
+
+.submitbuttontext{
+  margin-top: 2.6vw;display: inline-block;font-size: 4.93vw;
+}
+
+ .questionlisttitle{
+   width: 100vw;height: 9.33vw;background: #fff;
+   margin-top: 4vw;text-align: center
+}  
+
+.questionlisttitletext{
+  margin-top:1.83vw;font-size: 3.73vw;display: inline-block
+}
+
+.questionitem{
+   width: 100vw;height: 9.33vw;margin-top: 0.4vw;background: #fff;text-align: left;
+}
+
+.questionitemtext{
+   font-size: 3.86vw;margin-left: 3.2vw;margin-top: 2vw;display: inline-block
+}

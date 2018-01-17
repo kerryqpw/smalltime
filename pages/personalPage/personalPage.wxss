@@ -1,0 +1,97 @@
+/* pages/personalPage/personalPage.wxss */
+
+page{
+    background: #efeff4;
+}
+
+.title{
+  text-align:center;font-size:16px
+}
+
+.userInfo{
+  display: flex;flex-direction: row;margin-left: 3.2vw;position: relative;
+  width:93.6vw;height:40vw;
+  margin-top: 2.8vw;text-align: center;
+}
+
+.userInfoWrap{
+  width:93.6vw;height:40vw;position: absolute
+}
+
+.userHeadImg{
+    align-items:center;background: #fff;width: 40px;height: 40px;
+    border-radius: 50%;
+    margin-left:10px;
+    margin-top: 50px;
+}
+
+.settingWrap{
+    position: absolute;right: 0;top:1.86vw;
+  margin-right: 10px;
+  width:10vw;height:10vw;
+}
+
+.setting{
+  width:4.5vw;height:4.5vw;margin-left: 2vw;
+  
+}
+
+.UserInfoMiddle{
+  display: flex;
+  flex-direction: row;
+}
+
+.headImg{
+  position: absolute;
+  width:19.3vw;height:19.3vw;background:#fff;z-index:12;border-radius: 50%;
+  left: 37.26vw;top: 3.73vw
+}
+
+.username{
+   position: absolute;
+  z-index:13;color:#fff;
+  left: 41.1vw;top: 24.5vw;font-size: 4vw;
+}
+
+.userintroduce{
+  position: absolute;
+  z-index:14;  color:#fff;
+  left: 37.0vw;bottom: 4.5vw;font-size: 3.46vw;
+}
+
+
+
+
+
+.label{
+  display: flex;
+  width: 93.6vw;
+  height: 14vw;
+  margin-left: 3.2vw;
+  height: 40px;
+  background:#fff;
+  color: #fff;
+  border-bottom: 0.5vw solid  #efeff4;
+  position: relative
+  
+}
+
+/* .line{
+  width: 93.6vw;
+  height: 1px;
+  background:#000;
+  margin-left: 2%;
+  margin-right: 2%
+} */
+
+.lableImg{
+  width: 5.33vw;height: 5.33vw;margin-top: 3.3vw;margin-left: 5.86vw
+}
+
+.labeltitle{
+  font-size:3.8vw;margin-top: 3.3vw;color:#000;margin-left:10px
+}
+
+.leftdirection{
+  width: 3.2vw;height: 3.2vw;position: absolute;right:7.46vw;top: 4.6vw;display: inline-block
+}

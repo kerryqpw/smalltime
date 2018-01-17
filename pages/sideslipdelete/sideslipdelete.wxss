@@ -1,0 +1,17 @@
+.item .btn-del{
+    position: absolute;
+    display: flex;
+    top:0px;
+    right:0px;
+    color: #fff;
+    background: #fd4346;
+    height: 100%;
+    border-radius: 0px;
+   border: none;
+   align-items: center;
+   transform:translate(64px,0);
+   -ms-transform:translate(64px,0);
+   -moz-transform:translate(64px,0);
+   -webkit-transform:translate(64px,0);
+   -o-transform:translate(64px,0);
+ }

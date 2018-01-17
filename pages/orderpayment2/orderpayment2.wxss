@@ -1,0 +1,117 @@
+/* pages/orderpayment/orderpayment.wxss */
+
+page{
+    background: #efeff4;
+    padding: 0;
+    margin: 0;
+}
+
+.topAddressInfo{
+    width: 93.6vw;height: 24.26vw;background: #fff;margin-left: 3.2vw;
+    margin-top: 2.8vw;position: relative;
+}
+
+.addressicon{
+  width: 5.86vw;height:5.86vw;position: absolute;left: 0;top:10.53vw;
+  left: 3.73vw;
+}
+
+.consignee{
+  position: absolute;font-size: 4.13vw;left: 12.4vw;top:4.8vw;
+}
+
+
+.phone{
+  position: absolute;font-size: 4.13vw;top:4.8vw;right: 11.2vw;
+}
+
+.addressInfo{
+  width: 93.6vw;height: 1.6vw;margin-left: 3.2vw;display: block;
+}
+
+.addressdetail{
+  position: absolute;font-size: 3.13vw;width: 72vw;height: 7.33vw;
+  top:12.26vw;left: 12.4vw;
+}
+
+.topleftdirection{
+  position: absolute;width: 3.33vw;height: 3.33vw;top: 11.06vw;
+  right: 4vw;
+}
+
+.item{
+  width: 93.6vw;height: 12.4vw;margin-left: 3.2vw;background: #fff;margin-top: 0.3vw;
+  position: relative
+}
+
+.itemtext{
+  position: absolute;font-size: 4.13vw;top: 3.5vw;left: 4.13vw;
+}
+
+.itemleftdirection{
+  position: absolute;width: 3.33vw;height: 3.33vw;top: 4.3vw;
+  right: 4vw;
+}
+
+.pricecount{
+  position: absolute;top: 4.13vw;
+  right: 4vw;font-size: 3.2vw;
+}
+
+.checkclass{
+  position: absolute;top: 2.13vw;display: block;
+  right: 6.5vw;width: 4vw;height: 4vw;
+}
+
+.wexinicon{
+  position: absolute;width: 4.8vw;height: 4.8vw;top: 4.13vw;left: 4.13vw;
+}
+
+.pruductInfo{
+  width: 93.6vw;height: 28.93vw;margin-left: 3.2vw;background: #fafafa;margin-top: 2.93vw;
+  position: relative;margin-bottom: 4.8vw;
+}
+
+.pruductImg{
+   position: absolute;width: 23.73vw;height: 23.73vw;left: 3.06vw;
+   top: 1.33vw;
+
+}
+
+.pruductName{
+  position: absolute;font-size: 3.2vw;width: 58vw;top: 2vw;right: 5.46vw;
+}
+
+.pruductDes{
+  position: absolute;font-size: 3.06vw;width: 58.66vw;top:12vw;right: 4.26vw;
+  color: #979797
+}
+
+.pruductPrice{
+  position: absolute;bottom: 1.73vw;font-size: 3.46vw;right: 46vw;color: #ff4400;
+}
+
+.pruductCount{
+  position: absolute;bottom: 1.73vw;font-size: 3.2vw;right: 3.46vw;
+}
+
+.bottom{
+  position: absolute;width:100vw;height: 12.66vw;background: red;
+}
+
+.bottomWrap{
+  width:100vw;height: 12.66vw;background: #fff;position: relative;
+  border-top: 0.13vw solid #bfbfc3
+}
+
+.totalCount{
+  position: absolute;left: 35.86vw;top: 4vw;font-size: 3.73vw;
+}
+
+.paybutton{
+  position: absolute;width: 29.73vw;height: 12.66vw;right: 0;background: #000
+}
+
+.paytext{
+  color: #fff;position: absolute;font-size: 3.6vw;right: 9.06vw;top: 3.7vw;
+}

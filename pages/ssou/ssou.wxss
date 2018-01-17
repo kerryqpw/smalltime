@@ -1,0 +1,159 @@
+page{
+  background: #efeff4;
+}
+.addressitem1{
+
+  position: relative;width: 100vw;height: 11.87vw;background: #fff;
+  margin-top: 0.93vw;
+}
+
+.addressitem2{
+    
+  position: relative;width: 100vw;height: 100vw;
+   /* background: beige;  */
+  /* margin-top: 0.93vw; */
+}
+
+
+.zt4{
+  /* position: absolute; */
+  /* color: #959596; */
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  margin-top: 8vw;
+  font-family: 微软雅黑;
+  /* left: 3.33vw;  */
+  /* width: 91.07vw; */
+  margin-left: 3.33vw;
+  display: inline-block
+
+}
+
+.zt3{
+
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+   margin-top: 8vw; 
+  margin-left: 4.33vw;
+  /* width: 91.07vw; */
+   /* margin-left: 3.33vw;  */
+   display: inline-block; 
+  width: 13.07vw;
+  height: 5.2vw;
+  border: 0.13vw solid #ababab;
+  text-align: center; 
+  font-family: 微软雅黑;
+
+}
+
+/* 看看 */
+.zt2{
+  position: absolute;
+  /* color: #959596; */
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+   margin-top: 8vw; 
+   left:43.2vw;  
+  /* width: 91.07vw; */
+   /* margin-left: 3.33vw;  */
+   display: inline-block; 
+  width: 13.07vw;
+  height: 5.2vw;
+  border: 0.13vw solid #ababab;
+  text-align: center; 
+  font-family: 微软雅黑;
+
+}
+.zt1{
+  position: absolute;
+  /* color: #959596; */
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+   margin-top: 8vw; 
+   left:62.4vw;  
+  /* width: 91.07vw; */
+   /* margin-left: 3.33vw;  */
+   display: inline-block; 
+  width: 13.07vw;
+  height: 5.2vw;
+  border: 0.13vw solid #ababab;
+  text-align: center; 
+  font-family: 微软雅黑;
+
+}
+.zt0{
+  position: absolute;
+  /* color: #959596; */
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+   margin-top: 8vw; 
+   left:81.6vw;  
+  /* width: 91.07vw; */
+   /* margin-left: 3.33vw;  */
+   display: inline-block; 
+  width: 13.07vw;
+  height: 5.2vw;
+  border: 0.13vw solid #ababab;
+  text-align: center; 
+  font-family: 微软雅黑;
+
+}
+.zt5{
+  position: absolute;
+  color: #fff; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+   /* margin-top: 3.47vw;  */
+   left:81.2vw;  
+  /* width: 91.07vw; */
+   /* margin-left: 3.33vw;  */
+   display: inline-block; 
+  width: 19vw;
+  height: 11.87vw;
+  /* border: 0.13vw solid #ababab; */
+  text-align: center; 
+  font-family: 微软雅黑;
+  background: black;
+
+}
+
+.zt5text{
+  margin-top: 3vw;display: inline-block
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.newphoneinput{
+  position: absolute;
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 2.8vw;
+  font-family: 微软雅黑;
+  /* left: 3.33vw; */
+  right: 28.53vw;
+  text-align: center
+}
+/* .submitbutton{
+width: 100vw;height:12.8vw;position: absolute;bottom: 0;text-align: center;
+background: #000;
+}
+
+.submitbuttontext{
+color: #fff;font-size: 3.86vw;margin-top: 4vw;display: inline-block
+} */

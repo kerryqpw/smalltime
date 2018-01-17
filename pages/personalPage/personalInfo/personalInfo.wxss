@@ -1,0 +1,52 @@
+/* pages/personalPage/personalInfo/personalInfo.wxss */
+
+page{
+  background: #efeff4
+}
+
+.headtop{
+  width: 100vw;height: 22.66vw;background: #fff;margin-top: 0.93vw;
+  position: relative;
+}
+
+.headtoptag{
+  position: absolute;font-size: 4.06vw;left: 3.33vw;top:8.43vw;display: inline-block
+}
+
+.camera{
+  position: absolute;width: 11.6vw;height: 10.4vw;right: 13.33vw;top:6.03vw;
+}
+
+
+.headtopleftdirectionImage{
+  position: absolute;right: 5.73vw;top: 8.8vw;width: 6vw;height: 6vw;
+}
+
+
+.item{
+  width: 100vw;height: 12.66vw;
+  background: #fff;
+  margin-top: 0.93vw;position: relative;
+}
+
+.itemtag{
+    position: absolute;left: 3.33vw;font-size: 4.06vw;top: 3.46vw;display: inline-block
+}
+
+.username{
+    position: absolute;right: 12.66vw;font-size: 4.06vw;top: 3.46vw;display: inline-block
+}
+
+.itemleftdirectionImage{
+   position: absolute;right: 5.73vw;top: 3.3vw;width: 6vw;height: 6vw;
+}
+
+.submitbutton{
+  width: 100vw;height:12.8vw;position: absolute;bottom: 0;text-align: center;
+  background: #000;
+}
+
+.submitbuttontext{
+  color: #fff;font-size: 3.86vw;margin-top: 4vw;display: inline-block
+}
+

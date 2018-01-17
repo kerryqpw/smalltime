@@ -1,0 +1,16 @@
+<!--pages/productlist/productlist.wxml-->
+
+<view wx:for="{{shopList}}" wx:for-index="idx" wx:for-item="item">
+<view class='twolevenlist1'  catchtap='tobuydetail' >   
+    <!-- <view class='twolevenitem'> -->
+    <image class='topw1' src='{{item.thumb}}'></image> 
+    <text class='title4'>{{item.goods_name}}</text>
+    <text class='title5'>{{item.desc}}</text>
+    <image class='topw2' src='image/xp.jpg'></image> 
+    <!-- </view>      -->
+</view>
+</view>
+
+<view wx:if="{{shopList.length==0}}" class='hint'>
+      <text class='hinttext'>搜索为空</text>
+</view>

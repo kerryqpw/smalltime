@@ -1,0 +1,268 @@
+page{
+  background: #efeff4;
+}
+.addressitem1{
+  position: relative;width: 100vw;height: 11.33vw;background: #fff;
+  margin-top: 0.67vw;
+}
+
+.addressitem2{
+  position: relative;width: 100vw;height: 11.33vw;background: #fff;
+  margin-top: 2.4vw;
+}
+
+.addressitem3{
+  position: relative;width: 100vw;height: 25.07vw;background: #fafafa;
+  /* margin-top: 2.4vw; */  display: flex;flex-direction: row
+}
+
+.addressitem4{
+  position: relative;width: 100vw;height: 11.2vw;background: #fff;
+  /* margin-top: 2.4vw; */
+}
+
+.addressitem5{
+  position: relative;width: 100vw;height: 12.67vw;background: #fff;
+   margin-top: 0.27vw; 
+}
+
+.addressitem6{
+  position: relative;width: 100vw;height: 12.67vw;background: #fff;
+   margin-top: 0.27vw; 
+}
+
+.zt1{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.5vw;
+  font-family: 微软雅黑;
+  left: 6.13vw; 
+  color: #626567;
+  }
+
+.zt2{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.5vw;
+  font-family: 微软雅黑;
+  left: 22.27vw; 
+  color: #626567;
+  color: #626567;
+}
+.zt3{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.5vw;
+  font-family: 微软雅黑;
+  left: 42.27vw; 
+  color: #626567;
+}
+.zt4{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.5vw;
+  font-family: 微软雅黑;
+  left: 62.67vw; 
+  color: #626567;
+}
+.zt5{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.5vw;
+  font-family: 微软雅黑;
+  left: 82.53vw; 
+  /* width: 91.07vw; */
+}
+
+.zt6{
+  position: absolute; 
+  font-size: 3.2vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 4vw;
+  font-family: 微软雅黑;
+  left: 11.6vw; 
+  /* width: 91.07vw; */
+}
+.zt7{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 2.27vw;
+  font-family: 微软雅黑;
+  left: 27.2vw; 
+  /* width: 91.07vw; */
+}
+
+.zt8{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 6.8vw;
+  font-family: 微软雅黑;
+  color: #9c9c9c;
+  left: 27.2vw; 
+  /* width: 91.07vw; */
+}
+.zt9{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  color: #9c9c9c;
+  top: 11.33vw;
+  font-family: 微软雅黑;
+  left: 27.2vw; 
+  /* width: 91.07vw; */
+}
+
+.zt10{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 2.27vw;
+  font-family: 微软雅黑;
+  /* left: 27.2vw;  */
+  right: 3.33vw;
+  /* width: 91.07vw; */
+
+}
+
+.zt11{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 6.8vw;
+  font-family: 微软雅黑;
+  color: #9c9c9c;
+  /* left: 27.2vw;  */
+  right: 3.33vw;
+  /* width: 91.07vw; */
+  text-decoration:line-through;
+}
+.zt12{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  color: #9c9c9c;
+  top: 11.33vw;
+  font-family: 微软雅黑;
+  /* left: 27.2vw;  */
+  right: 3.33vw;
+  /* width: 91.07vw; */
+}
+.zt13{
+   position: absolute; 
+  font-size: 3.2vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.5vw;
+  font-family: 微软雅黑;
+  left:30.07vw; 
+}
+.zt14{
+   position: absolute; 
+  font-size: 3.2vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.5vw;
+  font-family: 微软雅黑;
+  left: 49vw; 
+}
+
+
+.zt15{
+   position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 2.5vw;
+  font-family: 微软雅黑;
+  /* left:35.07vw;  */
+  right: 25.47vw;
+
+
+  display: inline-block; 
+  width: 17.87vw;
+  height: 7.33vw;
+  border-radius: 1vw;
+  border: 0.13vw solid #ababab;
+  text-align: center; 
+  /*padding-top: 0.5vw;*/
+  line-height:7.33vw;
+
+}
+.zt16{
+   position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 2.5vw;
+  font-family: 微软雅黑;
+  /* left: 54vw;  */
+  right: 3.33vw;
+
+  display: inline-block; 
+  width: 17.87vw;
+  height: 7.33vw;
+  border-radius: 1vw;
+  border: 0.13vw solid #ababab;
+  text-align: center; 
+  /*padding-top: 0.5vw;*/
+  line-height: 7.33vw;
+
+}
+
+.topw1{
+  position: absolute;
+  width: 6.4vw;
+  height: 6.4vw;
+  top: 3.1vw;
+  left: 3.33vw
+}
+
+.topw2{
+  position: absolute;
+  width: 6.4vw;
+  height: 6.4vw;
+  top: 3.3vw;
+  left: 25vw
+}
+
+.topw3{
+  position: absolute;
+  width: 20.67vw;
+  height: 20.67vw;
+  top: 1.2vw;
+  left: 3.33vw
+}
+
+.goodsitem{
+  width: 20.67vw;
+  height: 20.67vw;
+  margin-top:1.2vw;
+  margin-left: 3.33vw;  
+}
+
+.topw4{
+  position: absolute;
+  width: 20.67vw;
+  height: 20.67vw;
+  top: 1.2vw;
+  left: 27.6vw
+}
+
+.topw5{
+  position: absolute;
+  width: 20.67vw;
+  height: 20.67vw;
+  top: 1.2vw;
+  left: 51.87vw
+}
+
+.topw6{
+  position: absolute;
+  width: 20.67vw;
+  height: 20.67vw;
+  top: 1.2vw;
+  left: 76.27vw
+}

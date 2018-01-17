@@ -1,0 +1,144 @@
+<swiper indicator-dots="true"  class='top'>
+    <block wx:key=""  wx:for="{{thumb_list}}" wx:for-item="item">
+ 
+     <swiper-item  >
+          <image mode='widthFix' class='topImage' src='{{item.url}}' ></image>
+
+      </swiper-item>
+  </block>
+</swiper>
+
+<view class='productdescription'>
+    <view class='productdescriptionleft'>
+        <text class='goods_name'  >{{goods_name}}</text>
+        <text class='desc' >{{desc}}</text>
+    </view>
+
+
+    <view class='verticalline' ></view>
+
+    <view class='productdescriptionright' catchtap='tocommentdetail'>
+        <text class='commentcount' >{{comment_count}}+</text>
+        <text class='commenttag' >用户评价</text>
+        <text class='commentdetail' >点击查看</text>
+    </view>
+</view>
+
+
+<view class='descriable'>
+   <view class='titledescriable'>文字描述</view>
+</view>
+
+ <view wx:for="{{content}}" wx:for-index="idx" wx:for-item="item">
+
+      <view class='descriableImgWrap'>
+        <image mode="widthFix" class='descriableImg' src='{{item.url}}'></image>
+      </view>
+
+</view>
+<!-- 评论 -->
+ <view class='commentWrap'> 
+    <view class='commentWraptitle'>评论</view>
+     <image class='buydetailline'  src='../../images/inheritdetail/buydetailline01.jpg'></image>
+
+    
+  <view wx:for="{{commentList}}" wx:for-index="idx" wx:for-item="item">
+
+        <view class='contentitem2' >
+        
+              <view class='contentclasstop' >
+                <image class='imagehead' src='{{item.user.avatar}}' ></image>
+                <text class='commentuser_name' >{{item.user.user_nickname}}</text>
+                <text class='reply'>回复（0）</text>
+                <text class='praisecount' style="{{item.is_like == 1?'color: red;':'color:#9d9d9d'}}">{{item.post_like}}</text>
+                <image data-id='{{item.id}}' data-index='{{idx}}'  catchtap='praiseright' class='praise'  src='../../images/buydetail/praise01.png'></image>
+            </view>
+            <view class='contentclassbottom' >
+                        <text class='contentclassbottomtext' >{{item.content}}</text>
+
+            </view>
+
+            <view class='contentclassImageList' wx:if="{{item.img.photos.length > 0}}" >
+         
+
+                <image class='contentclassImageitem' catchtap='imgYu' wx:for="{{item.img.photos}}" wx:for-index="idx" wx:for-item="photo" data-list='{{item.img.photos}}' data-src='{{photo.url}}' style='margin-left:2.1vw' src='{{photo.url}}'></image>
+              
+
+            </view>
+            <image class='buydetailline' style='margin-top:1vw' src='../../images/inheritdetail/buydetailline01.jpg'></image>
+
+        </view>
+
+        </view>
+
+
+
+</view>
+
+
+<!-- 加入购物车模块 -->
+    <view class='joinshoppingwrap' catchtouchmove="preventD" catchtap='clickjoinshopping' style='display:{{isshowjoinshoppingdialog}}'></view>
+    <view class='joinshopping' catchtouchmove="preventD" style='display:{{isshowjoinshoppingdialog}}'>
+        <view class='joinshoppingwrapin'>
+            <image class='shoppingproduct'  src='{{thumb_list[0].url}}'></image>
+
+            <text class='productPrice'>￥{{currentmarket_price}}元</text>
+            <text class='productrepertory'>库存{{currenttotal}}件</text>
+            <text class='producttaste'>请选择 口味</text>
+
+            <image class='closeImg' catchtap='close01' src='../../images/close03.jpg'></image>
+
+            <text class='tastetitle'>口味</text>
+             <view wx:for="{{option}}" wx:key="{{index}}" wx:for-index="idx" wx:for-item="item">
+              <text class='tasteselect0{{idx+1}}' data-id="{{idx}}" data-market_price='{{item.market_price}}' data-total='{{item.total}}' catchtap='clickoptionitem'
+                  style="{{idx == currentoption_id?'color: #fff;background:#000;':''}}"
+                >{{item.title}}</text>
+              
+              </view>
+          
+
+            <text class='buycounttitle'>购买数量</text>
+            <text class='minus' catchtap='minus'>-</text>
+            <text class='count' >{{shoppingcount}}</text>
+            <text class='plus' catchtap='plus'>+</text>
+            <view class='line01'></view>
+            <view class='line02'></view>
+            <view class='submitbutton' catchtap='submit'>
+                <text class='submitbuttontext' >加入购物车</text>
+            </view>
+
+
+        </view>
+    </view>
+
+
+ <view class='buttom' style='display:{{isshowbottomdialog}}'>
+        <view class='buttomwrap' >
+
+        <view class='checkshopping' catchtap='toshoppingCat' >
+            <image class='checkshoppingImg' src='../../images/cart_light02.png'></image>
+            <text class='checkshoppingtext'>查看购物车</text>
+
+        </view> 
+                        <view class='verticallinebottom'></view>
+
+
+           <button size='2000' type="default-light" 
+            open-type="contact" session-from="weapp" class='checkshoppingbutton'  >
+             <image class='checkshoppingImg' src='../../images/customer.png'></image>
+            <text class='checkshoppingtextcustomer'>联系客服</text> 
+
+       </button>
+                
+       <view class='buttomleft' catchtap='toorderpayment' ><text class='buttomlefttexxt' >立即购买</text></view>
+       <view class='buttomright' catchtap='joinshoppingclick'><text class='buttomrighttext' >加入购物车</text></view>
+
+       </view>
+</view>
+
+
+
+<!--  发布评论弹出按钮 -->
+<!-- <view class='mycomment' catchtap='clickmycomment' style=''>
+    <image class='mycommentimg' src='../../images/inheritdetail/sendcomment.png'></image>
+</view> -->

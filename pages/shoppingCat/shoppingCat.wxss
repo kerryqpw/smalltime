@@ -1,0 +1,138 @@
+    /* pages/leftSwiperDel/index.wxss */  
+
+    page{
+        background: #efeff4
+
+    }
+    view{  
+        box-sizing: border-box;  
+    }  
+    .item-box{  
+        width: 700rpx;  
+        margin: 0 auto;  
+        padding:1.3vw 0;
+        margin-bottom: 14vw;  
+    }  
+    .items{  
+        width: 93.6vw;       
+    }  
+    .item{
+        width: 93.6vw;  
+        position: relative;  
+        border-top: 2rpx solid #eee;  
+        height: 29vw;  
+        line-height: 29vw;   
+        overflow: hidden;
+        
+    }  
+    .item:last-child{  
+        border-bottom: 2rpx solid #eee;  
+    }  
+    .inner{
+        position: absolute;  
+        top:0;
+    }  
+    .inner.txt{  
+      
+        background-color: #fff;  
+        width: 100%;  
+        z-index: 5;  
+        padding:0 10rpx;  
+        transition: left 0.2s ease-in-out;  
+        white-space:nowrap;  
+        overflow:hidden;  
+        text-overflow:ellipsis;
+    }  
+    .inner.del{  
+        background-color: #e64340;  
+        width: 180rpx;text-align: center;  
+        z-index: 4;  
+        right: 0;  
+        color: #fff  
+    }  
+    .item-icon{  
+        width: 19.6vw;
+        height: 19.6vw;
+        border: 2.1vw solid #efeff4 ;
+        vertical-align: middle;  
+        margin-right: 16rpx;
+        margin-left:4.2vw  
+    }  
+    .thumb{  
+        width: 200px;  
+        height: 200px;  
+        -webkit-overflow-scrolling: touch;  
+        overflow: scroll;  
+    }
+
+    .shopClass{
+      width: 65vw;background: red;
+      display: inline-block;position: relative
+    }
+
+    .pruductName{
+      position: absolute;top: -8vw;left:30.8vw;display: inline-block;
+      font-size: 3.6vw;
+    } 
+
+    .pruductCount{
+       position: absolute;top: -8vw;right:2.8vw;display: inline-block;
+       font-size: 3.6vw;
+    }
+    
+    .pruductclassfy{
+      position: absolute;top: -2vw;left:30.8vw;display: inline-block;
+      font-size: 3.06vw;
+    }
+    
+    .pruductprice{
+       position: absolute;top: 8.5vw;left:30.8vw;display: inline-block;
+       font-size: 3.6vw;
+    }
+
+    .editcountWrap{
+       position: absolute;width: 22.66vw;height: 6.26vw;background: #efeff4;
+       display: inline-block;top: 20.5vw;right:2.8vw;
+    }
+
+    .editnumberWrap{
+       position: absolute;width: 8.36vw;height: 4.6vw;background:#fff;
+       display: inline-block;top: 21.5vw;right:9.8vw;
+    }
+
+    .editpminus{
+       position: absolute;top: 9vw;right:20.8vw;display: inline-block;
+       font-size: 3.6vw;z-index: 55;
+    }
+
+    .editcount{
+       position: absolute;top: 9.2vw;right:12.8vw;display: inline-block;
+       font-size: 3.6vw;z-index: 55;
+    }
+
+    .editplus{
+       position: absolute;top: 9vw;right:5.8vw;display: inline-block;
+       font-size: 3.6vw;z-index: 55
+    }
+
+    .editplusarea{
+        position: absolute;width:6vw;height: 6vw;
+       right: 18vw;bottom: 2.5vw;display: inline-block;z-index: 233
+    }
+
+    .editpminusarea{
+        position: absolute;width:6vw;height: 6vw;
+        right: 4.5vw;bottom: 2.5vw;display: inline-block;z-index: 2334
+    }
+
+    .bottom{
+       position: fixed;width: 93.6vw;height: 13.3vw;background: #fff;bottom: 1.33vw;
+       margin-left: 3.2vw;display: flex;flex-direction: row;z-index: 2233
+    }
+    .settle{
+       width: 23.46vw;height: 13.3vw;background: #000;position: absolute;right: 0;
+       text-align: center
+    }
+
+  
+   

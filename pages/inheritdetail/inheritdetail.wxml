@@ -1,0 +1,78 @@
+<wxs module="filters" src="../../wxs/addmul.wxs"></wxs>
+
+
+<view class='top'>
+   <image class='topImg' src='{{thumbnail}}'></image>
+</view>
+
+<view class='toptitle'>
+    <text class='title'>{{post_title}}</text>
+    <text class='desdetil'>{{post_excerpt}}</text>
+</view>
+
+<view class='twolevenlist1' data-id='{{recommendproductid}}' catchtap='toproductdetail' style='margin-top:1.66vw;'  >   
+    <!-- <view class='twolevenitem'> -->
+    <image class='topw1' src='{{thumb_big}}'></image> 
+    <text class='title4'>{{goods_name}}</text>
+    <!-- <text class='title5'>{{desc}}</text> -->
+    <text class='title5'>{{desc}}</text>
+    
+    <image class='topw2' src='../../images/xptj.jpg'></image> 
+
+</view>
+
+<view class='middleInto' wx:if="{{comment!=''}}" >
+   <image class='middleIntoImage' src='../../images/inheritdetail/inheritdetail01.png'></image>
+   <text class='middleIntoText'>{{comment}}</text>
+</view>
+
+
+<!-- 评论 -->
+ <view class='commentWrap'> 
+    <view class='commentWraptitle'>评论</view>
+     <image class='buydetailline'  src='../../images/inheritdetail/buydetailline01.jpg'></image>
+
+    
+  <view wx:for="{{commentList}}" wx:for-index="idx" wx:for-item="item">
+
+        <view class='contentitem2' >
+        
+              <view class='contentclasstop' >
+                <image class='imagehead' src='{{item.user.avatar}}' ></image>
+                <text class='commentuser_name' >{{item.user.user_nickname}}</text>
+                <text class='reply'>回复（0）</text>
+                <text class='praisecount' style="{{item.is_like == 1?'color: red;':'color:#9d9d9d'}}">{{item.post_like}}</text>
+                <image data-id='{{item.id}}' data-index='{{idx}}'  catchtap='praiseright' class='praise'  src='../../images/buydetail/praise01.png'></image>
+            </view>
+            <view class='contentclassbottom' >
+                        <text class='contentclassbottomtext' >{{item.content}}</text>
+
+            </view>
+
+            <view class='contentclassImageList' wx:if="{{item.img.photos.length > 0}}" >
+         
+
+                <image class='contentclassImageitem' catchtap='imgYu' wx:for="{{item.img.photos}}" wx:for-index="idx" wx:for-item="photo" data-list='{{item.img.photos}}' data-src='{{photo.url}}' style='margin-left:2.1vw' src='{{photo.url}}'></image>
+              
+
+            </view>
+            <image class='buydetailline' style='margin-top:1vw' src='../../images/inheritdetail/buydetailline01.jpg'></image>
+
+        </view>
+
+        </view>
+
+
+
+</view>
+
+<!--  发布评论弹出按钮 -->
+<view class='mycomment' catchtap='clickmycomment' style=''>
+    <image class='mycommentimg' src='../../images/inheritdetail/sendcomment.png'></image>
+</view>
+
+
+
+    
+
+

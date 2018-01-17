@@ -1,0 +1,45 @@
+
+<wxs module="filters" src="../../wxs/addmul.wxs"></wxs>
+
+
+
+    <view class="item-box">  
+      <view class="items" wx:for="{{shoppinglist}}"  wx:key="{{index}}" wx:for-item="item">  
+        <view   class="item">  
+          <view bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index="{{index}}" style="{{item.txtStyle}}" class="inner txt">  
+                <image class="item-icon"  src="{{item.thumb}}" style='width:{{imagewidth}};height:{{imageheight}}'></image>
+                   <view  bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE"   data-index="{{index}}" class='pruductName'>{{item.goods_name}}</view>
+                   <text bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE"   data-index="{{index}}"  class='pruductCount' >X{{countlist[index].count}}</text>
+                   <text bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE"   data-index="{{index}}" class='pruductclassfy'>{{item.title}}</text>
+                   <text bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE"   data-index="{{index}}" class='pruductprice'>￥{{filters.toFix(item.market_price)}}</text>
+
+
+                   <view bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE"   data-index="{{index}}" class='editcountWrap'>
+                     
+                   
+                   </view>
+
+                   <view bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE"   data-index="{{index}}" class='editnumberWrap'></view>
+                    <text bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE"   data-index="{{index}}" class='editpminus' data-goodid='{{item.goods_id}}' data-optionid='{{item.option_id}}'  catchtap='minus' >-</text>
+                    <text bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE"   data-index="{{index}}"  class='editcount'>{{countlist[index].count}}</text>
+                    <text bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE"   data-index="{{index}}" class='editplus'  data-goodid='{{item.goods_id}}' data-optionid='{{item.option_id}}'  catchtap='plus' >+</text>
+                    <view class='editplusarea' data-index="{{index}}" data-goodid='{{item.goods_id}}' data-optionid='{{item.option_id}}'  catchtap='minus'></view>
+                    <view class='editpminusarea' data-index="{{index}}" data-goodid='{{item.goods_id}}' data-optionid='{{item.option_id}}'  catchtap='plus'></view>
+              
+
+          </view>  
+           <view data-index="{{index}}" bindtap = "delItem" style='background:#000;color:#fff;width:14.4vw;font-size:3.73vw' data-cart_id='{{item.cart_id}}' class="inner del">删除</view> 
+
+        </view>  
+      </view>  
+    </view> 
+
+
+    <view class='bottom'>
+      <text style='margin-left:4.26vw;font-size:4vw;margin-top:4.33vw'>已选{{shopinglength}}</text>
+      <text style='margin-left:33.6vw;font-size:4vw;margin-top:4.33vw'>￥{{filters.toFix(totalordermoney)}}</text>
+      <view class='settle' catchtap='toorderpayment'>
+          <text style='color:#fff;font-size:4vw;margin-top:4.2vw;display: inline-block;'>结算</text>
+      </view>
+      
+    </view> 

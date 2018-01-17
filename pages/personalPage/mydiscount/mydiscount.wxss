@@ -1,0 +1,55 @@
+/* pages/personalPage/mydiscount/mydiscount.wxss */
+
+page{
+  background: #efeff4;
+}
+
+.toptitle{
+  width: 100vw;height: 11.33vw;background: #fff;
+  margin-top: 0.53vw;position: relative;  
+  
+}
+
+.tag01{
+  position: absolute;left: 8.4vw;top: 3.2vw;font-size:3.6vw;color: #7a7777
+}
+
+.tagselected{
+  color: #000
+}
+.tagnoselected{
+  color: #7a7777
+}
+
+.tag02{
+  position: absolute;left: 41.40vw;top: 3.2vw;font-size: 3.6vw;
+}
+
+
+.tag03{
+  position: absolute;right: 5.8vw;top: 3.2vw;font-size: 3.6vw;
+
+}
+  /**color: #7a7777*/
+.counpdetail{
+  width: 93.6vw;height: 24vw;margin-left: 3.2vw;background: #fff;margin-top: 3.2vw;
+  display: flex;flex-direction: row;position: relative;
+  /* background: red */
+}
+
+.counpdetailImg{
+  position: absolute;width: 43.6vw;height: 24vw;left: 0
+}
+
+.counpcondition01{
+  position: absolute;font-size: 3.43vw;left: 46.46vw;top:3.43vw;
+}
+
+.counpcondition02{
+  position: absolute;font-size: 3.43vw;left: 46.46vw;top:10vw;
+}
+
+.counpcondition03{
+  position: absolute;font-size: 3.43vw;left: 46.46vw;top:16.8vw;
+}
+

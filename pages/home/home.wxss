@@ -1,0 +1,174 @@
+/* pages/home/home.wxss */
+
+/* hello.wxss */
+
+page{
+ 
+  margin: 0px;
+  padding: 0px;
+  background: #fff
+}
+
+/*功能*/
+.clear{
+  clear: both;
+}
+
+
+/*头部 */
+
+
+swiper{
+  height: 59.6vw;
+}
+
+/**轮播图*/
+.slide-image{
+  width: 100vw; height: 59.6vw;
+}
+
+.homeentranceWrap{
+  width: 100vw;background:  #fff;position: relative;
+  height:42.66vw;margin-top: 2.9vw;display: flex;
+  flex-direction: row;
+}
+
+.homeentranceWrapleft{
+  width: 48vw;height: 42.66vw;margin-left: 1.33vw;
+}
+
+.homeentranceWrapright{
+  width: 48vw;height: 42.66vw;margin-left: 1.33vw;
+}
+
+.homeentranceImg{
+  width: 48vw;height: 42.66vw;
+}
+
+
+.extragitem{
+  width: 100vw;height: 74.66vw;
+}
+
+.extragitemimg{
+  width: 100vw;height: 74.66vw;
+}
+
+
+.extragenetictitle{
+  color: #000;margin-top:5.3vw;font-weight:800;
+  font-size:4.26vw;letter-spacing:0vw;display:inline-block;line-height: 5.5vw;
+}
+
+.extragenetictag{
+  color:#858181;
+  letter-spacing:0.2vw;font-size:3.2vw;margin-bottom:5vw;line-height: 6.5vw;
+}
+
+.extrageneticListItem{
+  background: #fff;display: inline-block
+}
+
+/**首页弹出按钮*/
+
+.mystory{
+  width: 19.2vw;height: 7.06vw;position: fixed;left: 40vw;bottom: 2.66vw;
+}
+
+.mystoryimg{
+  width: 19.2vw;height: 7.06vw;
+}
+
+
+
+/**首页弹出*/
+
+.homedialogwrap{
+  width:100vw;height:100vh;background:rgba(0, 0, 0, 0.5);position: fixed;
+   bottom: 0; 
+}
+
+.homedialog{
+  width:82.26vw;height:90.54vh;position: fixed;
+   bottom: 7.2vw;left: 8.93vw; 
+}
+
+.homedialogwrapin{
+  width:82.26vw;height:90.54vh;position: relative;background:#fff;
+}
+
+.mystorytopimg{
+  width: 82.26vw;height: 28.53vh;margin: 0
+}
+
+.mystoryInfo{
+  width: 82.26vw;height:56.01vh;position: relative;background: #fff;margin-top: -0.9vh
+}
+
+.storytitle{
+  position: absolute;font-size: 4vw;letter-spacing: 0.23vw;left: 23.86vw;top: 2.06vh
+}
+
+.storyimglistWrap{
+  position: absolute;height: 17vw;width: 74.13vw;top: 6.96vh;right: 5.26vw;background: #fff;
+}
+
+.storyimglist{
+  position: relative;height: 17vw;width: 74.13vw;display: flex;flex-direction: row;
+
+}
+
+.storyimgitem{
+  height:17vw;width: 17vw;margin-left: 1.53vw;
+}
+
+.mystorycameraimg{
+  position: absolute;width: 9.86vw;height: 9.86vw;top: 20.91vh;left: 35.6vw;
+}
+
+.mystorylineimg01{
+  position: absolute;width: 74vw;height: 0.8vw;top: 40.26vw;
+}
+
+.mystorylineimg02{
+  position: absolute;width: 74vw;height: 0.8vw;top: 46vw;
+}
+
+.mystorylineimg03{
+  position: absolute;width: 74vw;height: 0.8vw;top: 52.33vw;
+}
+
+.mystorylineimg04{
+  position: absolute;width: 74vw;height: 0.8vw;bottom: 7.06vw;
+}
+
+.mystorylineimg05{
+  position: absolute;width: 74vw;height: 0.8vw;bottom: 0.06vw;
+}
+
+.mystoryaddress{
+  position: absolute;font-size: 3.06vw;top: 41.5vw;left: 37.4vw
+}
+
+.mystorydata{
+  position: absolute;font-size: 3.06vw;top: 47.5vw;left: 37.4vw
+}
+
+.storytextarea{
+ position: absolute;width:82.26vw ;height: 14.33vw;font-size: 2.93vw;top: 54.26vw;
+  padding-left: 5.86vw;
+}
+
+.mystoryverticalline01{
+  position: absolute;height: 5.86vw;width: 2.4vw;bottom:1.06vw;left:39.23vw; 
+}
+
+.close{
+  position: absolute;font-size: 3.46vw;font-weight: bold;color: #000;left: 17.33vw;
+  bottom: 1.46vw;
+}
+
+.confirm{
+  position: absolute;font-size: 3.46vw;font-weight: bold;color: #000;right: 17.33vw;
+  bottom: 1.46vw;
+}

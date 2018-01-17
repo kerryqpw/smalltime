@@ -1,0 +1,100 @@
+/* pages/productlist/productlist.wxss */
+
+page{
+  background: #efeff4;  
+
+}
+
+/**推荐商品*/
+
+.topw1{
+    /* margin-top: 20.67vw;  */
+   position: absolute; 
+   left: 57.2vw;
+   top: 2.1vw;  
+   width:31vw;
+   height:31vw; 
+   display: block; 
+   /* margin: 0 auto  */
+}
+.twolevenlist1{
+position: relative;
+ background: #fff;
+ width: 93.6vw;height:35.2vw; 
+ /* text-align: center;      */
+ margin: 0 auto;
+ margin-top: 2.67vw;
+ 
+}
+
+.title4{
+  position: absolute;
+  left: 4vw;
+  font-size: 3.47vw;
+  top: 7.33vw;
+  display: inline-block;
+  font-family: 微软雅黑;
+  letter-spacing: 0.2vw;
+  
+  
+}
+.title5{
+  position:absolute; 
+  font-size: 2.93vw; 
+  font-family: 微软雅黑;
+  color: #858181;
+  top: 12.17vw;
+  left: 4vw;
+
+}
+
+.topw2{
+  position: absolute; 
+   left: 4.3vw;
+   top: 22.13vw;  
+   width:23.73vw;
+   height:6vw; 
+   /* display: block;  */
+   display: inline-block;
+}
+
+
+.twolevenlist2{
+position: relative;
+ background: #fff;
+ width: 93.6vw;height:6.4vw; 
+text-align: center;      
+ margin: 0 auto;
+ margin-top: 1.2vw;
+ 
+}
+
+.topw3{
+   position: absolute; 
+   left: 3.43vw;
+   top: 0.93vw;  
+   width:4.53vw;
+   height:4.53vw; 
+   /* display: block;  */
+   display: inline-block;
+}
+
+
+.title6{
+  position:absolute; 
+  font-size: 3.2vw; 
+  font-family: 微软雅黑;
+  color: #858181;
+  top: 1.07vw; 
+  left: 9.77vw;
+}
+
+
+
+.hint{
+  text-align: center
+}
+
+.hinttext{
+  font-size: 4.26vw;line-height: 11vw;display: inline-block
+}

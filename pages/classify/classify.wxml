@@ -1,0 +1,21 @@
+<!--pages/classify/classify.wxml-->
+<view class='top' catchtap='search' style='margin-top:3.8vw'>
+  <image class='searchimg'  src='../../images/search01.png'></image>
+</view>
+
+
+<view wx:for="{{couponList}}" wx:for-index="idx" wx:for-item="item">
+
+        <view class='classfyitem' catchtap='clickclassfy' data-id="{{item.id}}" style='height:{{imageHeight}}'>
+        <image class='classfyImage' style='height:{{imageHeight}}' src='{{item.thumb}}'></image>
+      </view>
+
+      <view  class='classfytwoList' wx:for="{{item.goodslist}}" wx:for-index="idx" wx:for-item="gooditem" animation="{{animationData}}"  style="{{item.id == currentid?'display:block':'display:none'}}" >
+          <view class='classfytwoItem' catchtap='toproductdetail' data-id='{{gooditem.id}}'>
+              <image class='classfytwoItemImg' src='{{gooditem.thumb_big}}' ></image>
+          </view>
+
+     </view>
+</view>
+
+

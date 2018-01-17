@@ -1,0 +1,21 @@
+
+
+<view class='mywalletInfo'>
+        <view class='balancecount01' >{{balance}}</view>
+        <view class='balancetag' >余额</view>
+</view>
+
+
+<view class='title'>交易信息</view>
+
+ <view wx:for="{{log}}" wx:for-index="idx" wx:for-item="item">
+
+      <view class='listItem'>
+        <text class='date' >{{item.create_time}}</text>
+        <text class='itemtag' >{{item.action}}</text>
+        <text class='balancecount' >{{item.des}}{{item.amount}}</text>
+    </view>
+ </view>
+
+
+

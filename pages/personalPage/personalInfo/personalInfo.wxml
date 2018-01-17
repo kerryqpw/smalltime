@@ -1,0 +1,20 @@
+
+<view class='headtop' bindtap='takeheadImage' style='display:none' >
+    <text class='headtoptag'>头像设置</text>
+    <image class='camera' src='../../../images/personal/camera.png'></image>
+    <image class='headtopleftdirectionImage' src='../../../images/leftdirection03.png'></image>
+</view>
+
+<view class='item' catchtap='name' >
+    <text class='itemtag'>用户名</text>
+
+     <text class='username'>{{user_nickname}}</text> 
+    <image class='itemleftdirectionImage' src='../../../images/leftdirection03.png'></image>
+</view>
+
+<view class='item' catchtap='bindphone'  >
+    <text class='itemtag'>手机号码</text>
+
+     <text class='username' data-mobile='{{mobile}}' >{{mobile}}</text> 
+    <image class='itemleftdirectionImage' src='../../../images/leftdirection03.png'></image>
+</view>

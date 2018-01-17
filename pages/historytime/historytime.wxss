@@ -1,0 +1,64 @@
+page{
+  background: #efeff4;
+}
+.topw{
+  position: relative;
+  width: 100vw;
+  height: 91.07vw;
+}
+
+.topw1{
+  position: absolute; 
+  width: 70.8vw;
+  height: 81.87vw;
+   top: 4.67vw; 
+  /* left: 39.07vw */
+  display: inline-block;
+}
+.topw2{
+  position: absolute; 
+  width: 42.8vw;
+  height: 81.73vw;
+  top: 9.33vw; 
+  right: 0vw;
+  /* left: 16.4vw */
+  display: inline-block;
+}
+.topw3{
+  /* position: absolute;  */
+  width: 100vw;
+  height: 13.87vw;
+  /* top: 9.33vw; 
+  right: 0vw; */
+  /* left: 16.4vw */
+   /* display: inline-block;  */
+}
+.topw4{
+  /* position: absolute;  */
+  width: 100vw;
+  /* height: 97.33vw; */
+   margin-top:2vw;  
+  /* right: 0vw;  */
+  /* left: 16.4vw */
+   display: inline-block; 
+}
+.topw5{
+   /* position: absolute;   */
+  width: 100vw;
+  height: 8.27vw;
+  margin-top:-2vw;   
+  /* right: 0vw; */ 
+  /* left: 16.4vw */
+  display: inline-block;
+}
+
+.buyclick{
+  position:absolute;bottom:5vw;left:36vw;width:30vw;height:10vw;z-index:3434;
+  background: rgba(0,0, 0, 0);
+}
+
+
+.moreclick{
+  position:absolute;bottom:1vw;right:9vw;width:18vw;height:7vw;z-index:3434;
+   background: rgba(0,0, 0, 0);
+}

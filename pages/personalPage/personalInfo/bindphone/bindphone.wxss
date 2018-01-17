@@ -1,0 +1,81 @@
+page{
+  background: #efeff4;
+}
+.addressitem1{
+  position: relative;width: 100vw;height: 12.8vw;background: #fff;
+  margin-top: 0.93vw;
+}
+
+.addressitem2{
+  position: relative;width: 100vw;height: 12.8vw;background: #fff;
+  margin-top: 0.93vw;
+}
+.addressitem3{
+  position: relative;width: 33.6vw;height: 12.8vw;background: black;
+  margin-top: 0.93vw;
+  margin-left: 66.4vw;
+}
+.zt1{
+  position: absolute; 
+  font-size: 4.27vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 4.27vw;
+  font-family: 微软雅黑;
+  left: 3.33vw; 
+  /* width: 91.07vw; */
+}
+.zt2{
+  position: absolute;
+  font-size: 4.27vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 4.27vw;
+  font-family: 微软雅黑;
+  left: 29.33vw; 
+ 
+}
+.zt4{
+  position: absolute; 
+  color: #fff;
+  font-size: 4.27vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.77vw;
+  right: 5.9vw;
+
+  font-family: 微软雅黑;
+  /* left: 3.33vw;  */
+  /* width: 91.07vw; */
+}
+.newphoneinput{
+  position: absolute;
+  font-size: 4.27vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.67vw;
+  font-family: 微软雅黑;
+  left: 33.4vw;
+}
+.newinput{
+  position: absolute;
+  font-size: 4.27vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.67vw;
+  font-family: 微软雅黑;
+  left: 3.33vw;
+}
+.newinput1{
+  position: absolute;
+  font-size: 4.27vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 4vw;
+  font-family: 微软雅黑;
+  left: 25.33vw;
+}
+
+.submitbutton{
+width: 100vw;height:12.8vw;position: absolute;bottom: 0;text-align: center;
+background: #000;
+}
+.submitbuttontext{
+color: #fff;font-size: 3.86vw;line-height: 12.8vw;display: inline-block
+}
+
+

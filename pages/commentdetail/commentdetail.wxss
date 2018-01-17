@@ -1,0 +1,199 @@
+/* pages/commentdetail/commentdetail.wxss */
+
+page{
+  background: #efeff4;  
+}
+
+
+.top{
+  width: 100vw;height: 50.66vw;
+}
+
+.topimgage{
+  width: 100vw;height: 50.66vw;
+}
+
+.userinfoWrap{
+  width: 100vw;height: 59.33vw;background: #fff;position: relative
+}
+
+.userinfoImg{
+  position: absolute;width: 9.6vw;height: 9.6vw;border-radius: 50%;left: 8.93vw;top: 4.53vw;
+}
+
+.username{
+  position: absolute;font-size: 3.86vw;left: 20.8vw;top: 7.33vw;
+}
+
+.commentdate{
+  position: absolute;font-size: 3.2vw;left:67.33vw;top: 4.53vw;color: #7d7d7d;
+}
+
+.praisecount2{
+  position: absolute;font-size: 3.2vw;left: 67.33vw;top: 10.93vw;color: #7d7d7d;
+
+}
+
+.articletitle{
+  position: absolute;font-size: 4vw;color: #000;left: 8.93vw;top:21.33vw;
+}
+
+.articledetail{
+  position: absolute;font-size: 3.06vw;width: 83.2vw;top: 28.66vw;left: 8.93vw;
+  line-height: 6vw;letter-spacing: 0.1vw;
+}
+
+
+
+/**推荐商品2*/
+
+.topw1{
+    /* margin-top: 20.67vw;  */
+   position: absolute; 
+   left: 55.2vw;
+   top: 1.6vw;  
+   width:32vw;
+   height:32vw; 
+   display: block; 
+   /* margin: 0 auto  */
+}
+
+.twolevenlist1{
+position: relative;
+ background: #fff;
+ width: 93.6vw;height:35.2vw; 
+ /* text-align: center;      */
+ margin: 0 auto;
+ margin-top: 2.67vw;
+ 
+}
+
+.title4{
+  position: absolute;
+  left: 4vw;
+  font-size: 4.26vw;
+  top: 4.33vw;
+  display: inline-block;
+  font-family: 微软雅黑;
+  letter-spacing: 0vw;
+  
+  
+}
+.title5{
+  position:absolute; 
+  font-size: 3.46vw; 
+  color: #858181;
+  top: 11.17vw;
+  left: 4vw;
+  width: 49.8vw;
+  line-height: 4.5vw;
+    font-family: 微软雅黑;
+
+
+}
+
+.topw2{
+  position: absolute; 
+   left: 4.3vw;
+   top: 24.13vw;  
+   width:23.73vw;
+   height:6vw; 
+   /* display: block;  */
+   display: inline-block;
+}
+
+
+
+/**评论*/
+
+
+
+.commentWrap{
+  width: 93.6vw;height: auto;background: #fff;margin-left: 2.95vw;margin-top: 1.6vw;
+  text-align: center;margin-bottom: 14.6vw;
+}
+
+.commentWraptitle{
+  margin-top: 2.93vw;display: inline-block
+}
+
+.contentclasstop{
+   display: flex;flex-direction: row;position: relative;
+   height:12vw;background:#fff
+}
+
+.imagehead{
+  width:9vw;height:9vw;background:#dadada;border-radius:50%;margin-top:2.67vw;margin-left:3.2vw;
+}
+
+.commentuser_name{
+  font-size:2.9vw;margin-left:3.3vw;margin-top:5.2vw;
+}
+
+.contentclassbottom{
+  height:12vw;background:#fff;text-align: left
+}
+
+.contentclassbottomtext{
+  font-size:3vw;margin-left:4vw;
+}
+
+.reply{
+  font-size:2.9vw;position: absolute;top: 5.26vw;right: 26.66vw;color: #a29f9f
+}
+
+.praisecount{
+    font-size:2.9vw;position: absolute;top: 5.26vw;right: 8vw;color: #a29f9f
+
+}
+
+.praise{
+  width: 5.73vw;height: 5.73vw;position: absolute;top: 3.36vw;right: 12.93vw
+}
+
+.contentclassImageList{
+  width:93.6vw;height: 14vw;background: #fff;display: flex;
+  flex-direction: row;
+}
+
+.contentclassImageitem{
+  width: 13.3vw;height: 13.3vw;margin-left:4vw
+}
+
+.buydetailline{
+   width: 88.93vw;height: 1.6vw;margin-left: 2.53vw;display: block;
+   margin-top:1.5vw;
+}
+
+.contentitem1{
+  width:93.6vw;height:24vw;
+}
+
+.contentitem2{
+  width:93.6vw;height:auto;
+}
+
+
+.buttom{
+  width: 100vw;height: 14.6vw;background: #fff;margin-top: 1.6vw;
+  display: flex;flex-direction: row;position: fixed;bottom: 0
+}
+
+.buttomleft{
+  width: 50vw;height: 14.6vw;background: #fff;text-align: center;
+}
+
+.buttomright{
+ width: 50vw;height: 14.6vw;background: #000;text-align: center;
+}
+
+
+/**发布评论弹出按钮*/
+
+.mycomment{
+  width: 19.2vw;height: 7.06vw;position: fixed;left: 40vw;bottom: 2.66vw;
+}
+
+.mycommentimg{
+  width: 19.2vw;height: 7.06vw;
+}

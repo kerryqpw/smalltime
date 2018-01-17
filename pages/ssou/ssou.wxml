@@ -1,0 +1,15 @@
+<view class='addressitem1'>
+  <input class='newphoneinput' bindblur='newphoneinput' placeholder='输入你想查询的商品'></input>
+  <view class='zt5'><text catchtap='search' class='zt5text'>搜索</text></view>
+</view>
+<view class='addressitem2' >
+<text class='zt4'>热门标签：</text>
+
+    <text bindtap='searchtag' data-tagname='{{item}}'  wx:for="{{goodstagList}}" style='inline' wx:for-index="idx" wx:for-item="item">
+        
+        <text catchtap='search' bindtap='search'  class='zt3'>{{item}}</text>
+
+    </text>
+   
+</view>
+

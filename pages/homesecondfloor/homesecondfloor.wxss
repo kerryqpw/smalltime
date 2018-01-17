@@ -1,0 +1,57 @@
+/* pages/homesecondfloor/homesecondfloor.wxss */
+
+.top{
+  width: 100vw;height: 144.53vw;
+}
+
+.topimg{
+  width: 100vw;height: 144.53vw;
+}
+
+.productInfo{
+  width: 100vw;height: 126vw;
+}
+
+.productInfoimg{
+  width: 100vw;height: 126vw;
+}
+
+.submitbutton{
+  width: 100vw;height: 18.8vw;
+}
+
+.submitbuttonimg{
+  width: 100vw;height: 18.8vw;
+}
+
+.productintroduceWrap01{
+  width: 100vw;height: 167.6vw;
+}
+
+.productintroduceimg01{
+  width: 100vw; height: 167.6vw;
+}
+
+.productintroduceWrap02{
+  width: 100vw;height: 262.4vw;
+}
+
+.productintroduceimg02{
+  width: 100vw; height: 262.4vw;
+}
+
+.productintroduceWrap03{
+  width: 100vw;height: 119.6vw;
+}
+
+.productintroduceimg03{
+  width: 100vw; height: 119.6vw;
+}
+
+.productintroduceWrap04{
+  width: 100vw;height: 109.2vw;
+}
+
+.productintroduceimg04{
+  width: 100vw; height: 109.2vw;
+}

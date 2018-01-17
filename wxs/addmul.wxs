@@ -1,0 +1,13 @@
+
+var filters = {
+  //保留2位小数
+  toFix: function (value) {
+    return value.toFixed(1)//此处2为保留两位小数
+  },
+  tosubString:function(value){
+    return value.substr(0.10);
+  }
+}
+module.exports = {
+  toFix: filters.toFix
+}

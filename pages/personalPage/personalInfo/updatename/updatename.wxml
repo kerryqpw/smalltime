@@ -1,0 +1,11 @@
+<view class='addressitem1'>
+<input class='newphoneinput' bindblur='newphoneinput' placeholder='请输入用户名'></input>
+</view>
+
+<text class='zt4'>4-20个字符，可由英文数字······组成</text>
+
+<view class='submitbutton' catchtap='submit'>
+   <text class='submitbuttontext'>确认修改</text>
+</view>
+
+

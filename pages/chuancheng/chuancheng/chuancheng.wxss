@@ -1,0 +1,201 @@
+/* pages/chuancheng/chuancheng.wxss */
+page{
+  background: #efeff4
+}
+
+.topWrap{
+ margin-top: 2.53vw;background: #fff;
+ width: 100vw;height: 70.67vw; 
+ text-align: center;
+ 
+}
+
+.top{
+   padding-top: 2.93vw;
+   width:93.6vw;
+   height:44.8vw;
+   
+   display: block; 
+   margin: 0 auto 
+}
+.title{
+  font-size: 4.26vw;
+  margin-top: 5.87vw;
+  line-height: 4.5vw;
+}
+.title1{
+  font-size: 3.46vw;
+  color: #858181;
+  line-height: 9vw;
+  margin-bottom:1.59vh;
+ 
+}
+.top1{
+   padding-top: 2.93vw;
+   width:93.6vw;
+   height:36.8vw;
+   display: block; 
+   margin: 0 auto 
+}
+/**轮播图*/
+.slide-image{
+  width: 93.6vw;margin-left: 3vw;
+  /* height: 49vw; */
+}
+
+.homeentranceWrap{
+  width: 93.6vw;background:  #efeff4;
+  height:23.2vw;margin-top: 2.9vw;display: flex;
+  flex-direction: row;margin-left: 3vw;
+}
+
+.homeentranceWrapleft{
+  width: 45vw;height: 23.2vw;background: rebeccapurple;margin-left: 0.5vw;
+}
+
+.homeentranceWrapright{
+  width: 45vw;height: 23.2vw;background: rebeccapurple;position: absolute;right: 0;
+  margin-right: 4vw;
+}
+
+.homeentranceImg{
+  width: 45vw;height: 23.5vw;
+}
+
+.extragenetictitle{
+  color: #000;
+}
+
+.extragenetictag{
+  font-size: 12px;color:#858181;
+}
+
+.extrageneticListItem{
+  background: #fff;display: inline-block
+}
+
+.twolevenlist{
+ background: #fff;
+ width: 93.6vw;height:68.27vw; 
+  text-align: center;   
+  margin: 0 auto; margin-top: 1.07vw;
+}
+.topw{
+   padding-top: 2.8vw;
+   width:90.8vw;
+   /* height:41.87vw;  */
+   display: block; 
+   margin: 0 auto 
+}
+.title2{
+  font-size: 4.26vw;
+  margin-top: 5.47vw;
+    line-height: 4.5vw;
+  font-family: 微软雅黑;
+}
+.title3{
+  font-size: 3.46vw;
+  color: #858181;
+  margin-top: 2.4vw;
+  margin-bottom:2.67vw;
+    line-height: 9vw;
+    font-family: 微软雅黑;
+ 
+}
+
+
+
+/**推荐商品*/
+.topw1{
+    /* margin-top: 20.67vw;  */
+   position: absolute; 
+   left: 55.2vw;
+   top: 1.6vw;  
+   width:32vw;
+   height:32vw; 
+   display: block; 
+   /* margin: 0 auto  */
+}
+.twolevenlist1{
+position: relative;
+ background: #fff;
+ width: 93.6vw;
+ height:35.2vw; 
+ /* text-align: center;      */
+ margin: 0 auto;
+ margin-top: 2.67vw;
+ overflow: hidden;
+ 
+}
+
+.title4{
+  position: absolute;
+  left: 4vw;
+  font-size: 3.47vw;
+  top: 7.33vw;
+  display: inline-block;
+  font-family: 微软雅黑;
+  
+  
+}
+.title5{
+  position:absolute; 
+  font-size: 2.93vw; 
+  font-family: 微软雅黑;
+  color: #858181;
+  top: 12.17vw;
+  left: 4vw;
+
+}
+
+.topw2{
+  position: absolute; 
+   left: 4vw;
+   top: 22.13vw;  
+   width:23.73vw;
+   height:6vw; 
+   /* display: block;  */
+   display: inline-block;
+}
+
+.twolevenlist2{
+position: relative;
+ background: #fff;
+ width: 93.6vw;height:6.4vw; 
+ /* text-align: center;      */
+ margin: 0 auto;
+ margin-top: 1.33w;
+ 
+}
+
+
+
+.twolevenlist2{
+position: relative;
+ background: #fff;
+ width: 93.6vw;height:6.4vw; 
+text-align: center;      
+ margin: 0 auto;
+ margin-top: 2.67vw;
+ 
+}
+
+.topw3{
+   position: absolute; 
+   left: 3.33vw;
+   top: 0.93vw;  
+   width:4.53vw;
+   height:4.53vw; 
+   /* display: block;  */
+   display: inline-block;
+}
+
+
+.title6{
+  position:absolute; 
+  font-size: 3.07vw; 
+  font-family: 微软雅黑;
+  color: #858181;
+  top: 1.07vw; 
+  left: 9.77vw;
+}

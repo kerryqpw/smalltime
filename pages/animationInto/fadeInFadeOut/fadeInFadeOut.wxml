@@ -1,0 +1,27 @@
+<!--pages/fadeInFadeOut/fadeInFadeOut.wxml-->
+<text>pages/fadeInFadeOut/fadeInFadeOut.wxml</text>
+
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" ></image>
+    <text class="userinfo-nickname">{{userinfo.nickName}}       </text>
+  </view>
+
+  <view class='content'>
+      <button type='default' style='opacity:{{checkCodeBtnOpacity}}' bindtap='bindGetCheckCode'  class='form_button_color checkcode_btn'  >生成闪退验证码</button>
+
+      <view animation="{{animationData}}" class='item_checkcode' style='opacity:{{checkCodeBtnOpacity}}'>
+      <text>快闪验证码</text>
+        <view class='checkcode_view'>
+            <text class='checkcode'></text>
+            <text class='isuse'>未使用</text>
+
+        </view>
+            <text class='isuse'>有效期{{datetime}}</text>
+              <text></text>
+              <text>遇到问题，联系客服</text>
+      </view>
+
+  </view>
+
+</view>

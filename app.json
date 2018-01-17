@@ -1,0 +1,116 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/hello/hello",
+    "pages/personalPage/shoppingCat/shoppingCat",
+    "pages/shoppingCat/shoppingCat",
+    "pages/personalPage/personalPage",
+    "pages/WaterFall/WaterFall",
+    "pages/logs/logs",
+    "pages/richText/richText",
+    "pages/scrollview/scrollview",
+    "pages/localCache/localCache",
+    "pages/toClientDialogue/toClientDialogue",
+    "pages/animationInto/fadeInFadeOut/fadeInFadeOut",
+    "pages/animations/animations",
+    "pages/animationInto/magnify/magnify",
+    "pages/animationInto/allAnimationInfo/allAnimationInfo",
+    "pages/impower/impower",
+    "pages/sideslip/sideslip",
+    "pages/aroundsideslip/aroundsideslip",
+    "pages/personalPage/mywallet/mywallet",
+    "pages/personalPage/IWillIfeedback/IWillfeedback",
+    "pages/personalPage/mydiscount/mydiscount",
+    "pages/template/template",
+    "pages/webView/webView",
+    "pages/personalPage/addressmanager/addressmanager",
+    "pages/personalPage/addressmanagerorder/addressmanagerorder",        
+    "pages/personalPage/addressmanager/editAddress/editAddress",
+    "pages/personalPage/IWillIfeedback/questiondetail/questiondetail",
+    "pages/personalPage/personalInfo/personalInfo",
+    "pages/personalPage/personalInfo/bindphone/bindphone",
+    "pages/personalPage/personalInfo/updatename/updatename",
+    "pages/navigator/navigator",
+    "pages/personalPage/personalInfo/bindphone/updatephone/updatephone",
+    "pages/personalPage/myOrder/myOrder",
+    "pages/classify/classify",
+    "pages/sideslipdelete/sideslipdelete",
+    "pages/buydetail/buydetail",
+    "pages/chuancheng/chuancheng/chuancheng",
+    "pages/inheritdetail/inheritdetail",
+    "pages/slideshow/slideshow",
+    "pages/orderpayment/orderpayment",
+    "pages/orderpayment2/orderpayment2",
+    "pages/shoppingunfold/shoppingunfold",
+    "pages/questiondetail/questiondetail",
+    "pages/leftrightpageslide/leftrightpageslide",
+    "pages/editaddress/editaddress",
+    "pages/addressList/addressList",
+    "pages/questionfeedback/questionfeedback",
+    "pages/paysuccess/paysuccess",
+    "pages/inheritlist/inheritlist",
+    "pages/comment/comment",
+    "pages/orderdetail/orderdetail",
+    "pages/huatixiangqing01/huatixiangqing01",
+    "pages/productlist/productlist",
+    "pages/historytime/historytime",
+    "pages/ssou/ssou",
+    "pages/huatixiangqing02/huatixiangqing02",
+    "pages/huatixiangqing03/huatixiangqing03",        
+    "pages/huatilist/huatilist",
+    "pages/transportstate/transportstate",
+    "pages/commentdetail/commentdetail",
+    "pages/homesecondfloor/homesecondfloor",
+    "pages/personalPage/addressmanager/addAddress/addAddress",
+    "pages/historytimenav/historytimenav"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "hello",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#a8a7a7",
+    "selectedColor": "#0b0b0b",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/home01.png",
+        "iconPath": "images/home02.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/apps01.png",
+        "iconPath": "images/apps02.png",
+        "pagePath": "pages/classify/classify",
+        "text": "分类"
+      },
+      {
+        "selectedIconPath": "images/discoverselect.png",
+        "iconPath": "images/discovernoselect.png",
+        "pagePath": "pages/historytime/historytime",
+        "text": "发现"
+      },
+   
+      {
+        "selectedIconPath": "images/cart_light01.png",
+        "iconPath": "images/cart_light02.png",
+        "pagePath": "pages/personalPage/shoppingCat/shoppingCat",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "images/people01.png",
+        "iconPath": "images/people02.png",
+        "pagePath": "pages/personalPage/personalPage",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": true
+}
+

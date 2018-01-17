@@ -1,0 +1,112 @@
+/* pages/huatilist/huatilist.wxss */
+
+page{
+  background: #efeff4;
+}
+
+.top{
+  width:93.6vw;height: 52.26vw;background: #fff;margin-left: 3.2vw;
+  margin-top: 2.53vw;
+}
+
+.topimg{
+  width:93.6vw;height: 52.26vw;
+}
+
+.huatiexplain{
+  width: 85.6vw;height: 47.2vw;position: absolute;left: 7.33vw;top: 43.46vw;
+  
+}
+
+.huatiexplainWrap{
+  width: 85.6vw;height: 47.2vw;background:#fff;
+  position: relative;
+}
+
+
+.huatiexplain01{
+  position: absolute;width: 74.8vw;font-size: 3.73vw;left: 7.06vw;top: 16vw;
+  line-height: 6.06vw;letter-spacing: 0.3vw;  text-align:left;
+
+}
+
+.huatiexplain02{
+  position: absolute;font-size: 3.73vw;left: 7.06vw;top: 15.86vw;
+}
+
+.huatiexplain03{
+  position: absolute;font-size: 3.73vw;left: 7.06vw;top: 32.26vw;
+}
+
+.huatiexplain04{
+  position: absolute;font-size: 3.73vw;left: 7.06vw;top: 45.33vw;
+}
+
+.huatiexplainline01{
+  position: absolute;width: 74.4vw;height:0.4vw;background: #efeff4;
+  top: 13.2vw;left: 7.06vw;display: inline-block;
+}
+
+.huatiexplainline02{
+  position: absolute;width: 74.4vw;height:0.4vw;background: #efeff4;
+  top: 27.33vw;left: 7.06vw;display: inline-block;
+}
+
+.huatiexplainline03{
+  position: absolute;width: 74.4vw;height:0.4vw;background: #efeff4;
+  top: 40.53vw;left: 7.06vw;display: inline-block;
+}
+
+
+.huatiexplainline04{
+  position: absolute;width: 74.4vw;height:0.4vw;background: #efeff4;
+  top: 54.53vw;left: 7.06vw;display: inline-block;
+}
+
+
+.submitbutton{
+  position: absolute;width: 25.33vw;height: 6.93vw;background: #000;top: 4.4vw;left: 30.4vw;
+  text-align: center;
+}
+
+.submitbuttontext{
+  color: #fff;font-size: 3.33vw;display: block;line-height: 6.93vw
+}
+
+.huatilisttitle{
+  width: 100vw;height: 8vw;background: #fff;margin-top: 37.93vw;text-align: center;
+  border-bottom:0.2vw solid #efeff4;
+}
+
+.huatilisttitletext{
+  font-size: 3.86vw;line-height: 8.5vw;display: inline-block;
+}
+
+.huatiitem{
+  width: 100vw;height: 30vw;background: #fff;margin-top: 0.26vw;position: relative;
+  /* border-bottom: 0 solid #000;border-top:0.2vw solid #dddddd; */
+}
+
+.huatiitemimg{
+  width: 24.66vw;height: 24.66vw;position: absolute;right: 6.13vw;top: 2.66vw;
+}
+
+.huatiitemcontent{
+  position: absolute;font-size: 3.66vw;width: 61vw;left: 7.06vw;top: 6vw;line-height:5.7vw;
+}
+
+.readcountimg{
+  width: 5.33vw;height: 4.8vw;position: absolute;left: 8vw;bottom: 5vw;
+}
+
+.commentcountimg{
+  width: 5.33vw;height: 4.8vw;position: absolute;left: 35.33vw;bottom: 5vw;
+}
+
+.readcount{
+  color: #707070;position: absolute;left: 14.93vw;bottom: 4.8vw;font-size: 3.06vw;
+}
+
+.commentcount{
+ color: #707070;position: absolute;left: 41.6vw;bottom: 4.8vw;font-size: 3.06vw;
+}

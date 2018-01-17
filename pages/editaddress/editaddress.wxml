@@ -1,0 +1,56 @@
+
+<view class='item' style='margin-top:2vw'>
+    <text class='itemtitle' >收货人：</text>
+</view>
+
+<view class='item'>
+    <text class='itemtitle' >联系方式：</text>
+
+</view>
+
+<view class='item'>
+    <text class='itemtitle' >所在地区：</text>
+    <text class='itemdetail' ><text>四川省</text><text>成都市</text><text>高新区</text></text>
+
+</view>
+
+<view class='item'>
+    <text class='itemtitle' >详细地址：</text>
+</view>
+
+<view class='addresstagitem'>
+    <text class='itemtitle' >标签：</text>
+    <text class='addresstagtext01'>家庭</text>
+    <text class='addresstagtext02'>公司</text>
+    <text class='addresstagtext03'>学校</text>
+
+    <checkbox class='checkboxclass' checked='checked'></checkbox>
+    <text class='settingdefault' >设置默认</text>
+
+</view>
+
+<view class='addressdialog'>
+    <view class='addressdialogWrap'>
+          <text class='addressdialogtag'>所在地区</text>
+
+          <text class='provinceclass'>四川省</text>
+          <text class='cityclass'>成都市</text>
+          <text class='districtclass'>武侯区</text>
+          <text class='urbanclass'>城区</text>
+          <text class='areatag'>区域</text>
+
+          <view class='addresslist'>
+              <text class='addressitem'>机投镇</text>
+              <text class='addressitem'>金华镇</text>
+              <text class='addressitem'>簇桥乡</text>
+              <text class='addressitem'>萝卜乡</text>
+          </view>
+
+          
+    </view>
+
+     <view class='submitbutton'>
+                <text class='submitbuttontext'>保存新地址</text>
+    </view>
+</view>
+

@@ -1,0 +1,62 @@
+/* pages/transportstate/transportstate.wxss */
+
+page{
+  background: #efeff4
+}
+
+.top{
+  width:100vw;height: 16vw;background: #fff;margin-top: 0.93vw;position: relative; 
+}
+
+.toporderid{
+  font-size: 3.73vw;position: absolute;left: 3.33vw;top: 2.66vw;
+}
+
+.topoderdate{
+  font-size: 3.73vw;position: absolute;left: 3.33vw;top: 8.66vw;
+}
+
+.orderstatelist{
+  width: 100vw;height: 143.2vw;margin-top: 0.93vw;background: #fff;position:relative;
+  display: flex;flex-direction: row
+}
+
+.orderstatelistleft{
+  width: 13.5vw;height: 143.2vw;position:relative;border-right: 0px solid red
+}
+
+.orderstatelistright{
+  width: 86.5vw;height: 143.2vw;position:relative;
+}
+
+.orderstateitem{
+  width: 86.6vw;height: 38.66vw;background: #fff;position:relative;
+}
+
+.orderstateitemstatetext{
+  width: 80vw;font-size: 3.33vw;line-height: 5.8vw;display: inline-block
+}
+
+.orderstateitemstatedate{
+  width: 80vw;font-size: 2.93vw;margin-top: 4.26vw;color: #6d6d6d;display: inline-block
+}
+
+.orderstatespotWrap{
+  width: 2.86vw;height: 2.86vw;background: #6b6b6b;border-radius: 50%;
+  margin: 0;margin-left: 2.8vw;position: relative;margin-top: 5.3vw;text-align: center
+  
+}
+
+.orderstatespotcurrent{
+  position: absolute;width: 1.86vw;height: 1.86vw;border-radius: 50%;background: #000;top:0.5vw;
+  left: 0.5vw;
+  display:block;
+}
+.orderstatespot{
+  width: 1.86vw;height: 1.86vw;border-radius: 50%;background: #000;margin-left: 3.3vw;
+  display: block;
+}
+
+.verticalline{
+  width:0.26vw ;height:38.86vw ;background: #707070;margin-left: 4.1vw;margin-top: -3vw;
+}

@@ -1,0 +1,5 @@
+<!--pages/startPage/startPage.wxml-->
+<text>pages/startPage/startPage.wxml</text>
+
+
+<button bindtap="toindex">开放到微信公众号</button>

@@ -1,0 +1,8 @@
+<!--pages/animationInto/allAnimationInfo/allAnimationInfo.wxml-->
+
+<view animation="{{animationData}}" style="background:red;height:100rpx;width:100rpx"></view>
+
+<button bindtap="rotateAndScale">旋转同时放大</button>
+<button bindtap="rotateThenScale">先旋转后放大</button>
+<button bindtap="rotateAndScaleThenTranslate">先旋转同时放大，然后平移</button>
+

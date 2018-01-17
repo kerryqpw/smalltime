@@ -1,0 +1,17 @@
+
+<view class='toptitle'>
+  <text class="tag01 {{tag01class}}" catchtap='clicktag01'  >未使用（{{count1}}）</text>
+  <text class="tag02 {{tag02class}}" catchtap='clicktag02' >已使用（{{count2}}）</text>
+  <text class="tag03 {{tag03class}}" catchtap='clicktag03' >已过期（{{count3}}）</text>
+</view>
+
+
+ <view wx:for="{{couponList}}" wx:for-index="idx" wx:for-item="item">
+    <view class='counpdetail'>
+        <image class='counpdetailImg' src='{{item.thumb}}'></image>
+        <text class='counpcondition01'>1.{{item.remark[0]}}</text>
+        <text class='counpcondition02'>2.{{item.remark[1]}}</text>
+        <text class='counpcondition03'>3.{{item.remark[2]}}</text>
+
+    </view>
+</view>

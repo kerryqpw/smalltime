@@ -1,0 +1,22 @@
+<view class='addressitem1' style='display:none'>
+<text class='zt1'>标题：</text>
+<input class='newphoneinput' placeholder='请输入评论内容'></input>
+</view>
+
+
+<view class='addressitem2'>
+<textarea class='newphoneinput2' bindblur='commentinput' placeholder='请输入内容······'></textarea> 
+ <image class='topw1' src='https://api.xshtc.net/upload/{{urlArray[0].url}}'></image>
+ <image class='topw2' src='https://api.xshtc.net/upload/{{urlArray[1].url}}'></image>
+ <image class='topw3' src='https://api.xshtc.net/upload/{{urlArray[2].url}}'></image>
+ <image class='topw3' src='image/2.jpg' catchtap='mycommentcamera' style='display:{{isshowcommentcamera}}'></image>
+</view>
+
+
+<view class='addressitem3' style='display:none'>
+<input class='newphoneinput1' placeholder='问问大家怎么样'></input>
+</view>
+
+<view class='addressitem4' catchtap='submit'>
+  <text class='zt4'>发布</text>
+</view>

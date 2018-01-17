@@ -1,0 +1,54 @@
+
+<view class='addressitem1'>
+<text class='zt1'>刘亚品</text>
+<text class='zt2'>13508077458</text>
+<text class='zt3'>四川省 成都市 新中泰四川省 成都市 新中泰四川省 成都市 新中泰四川省 成都市 新中泰</text>
+</view>
+
+
+<view class='addressitem2'>
+  <checkbox class='checkboxclass' checked='checked' ></checkbox>
+  <text class='zt4'>默认地址</text>
+  <image class='top' src='image/edit.png'></image>
+   <text class='zt5'>编辑</text>
+    <image class='top1' src='image/delete.png'></image>
+   <text class='zt6'>编辑</text>
+</view>
+
+
+
+
+
+<view class='addressitem1'>
+<text class='zt1'>刘亚品</text>
+<text class='zt2'>13508077458</text>
+<text class='zt3'>四川省 成都市 新中泰四川省 成都市 新中泰四川省 成都市 新中泰四川省 成都市 新中泰</text>
+</view>
+
+
+<view class='addressitem2'>
+  <checkbox class='checkboxclass'  ></checkbox>
+  <text class='zt4'>默认地址</text>
+  <image class='top' src='image/edit.png'></image>
+   <text class='zt5'>编辑</text>
+    <image class='top1' src='image/delete.png'></image>
+   <text class='zt6'>编辑</text>
+</view>
+
+
+
+<view class='addressitem1'>
+<text class='zt1'>刘亚品</text>
+<text class='zt2'>13508077458</text>
+<text class='zt3'>四川省 成都市 新中泰四川省 成都市 新中泰四川省 成都市 新中泰四川省 成都市 新中泰</text>
+</view>
+
+
+<view class='addressitem2'>
+  <checkbox class='checkboxclass'  ></checkbox>
+  <text class='zt4'>默认地址</text>
+  <image class='top' src='image/edit.png'></image>
+   <text class='zt5'>编辑</text>
+    <image class='top1' src='image/delete.png'></image>
+   <text class='zt6'>编辑</text>
+</view>

@@ -1,0 +1,102 @@
+
+<wxs module="filters" src="../../wxs/addmul.wxs"></wxs>
+
+<view class='top'>
+    <image class='topimg' src='../../images/orderdetail/orderdetail01.jpg'></image>
+
+    <image class='time' src='../../images/orderdetail/time.png'></image>
+
+    <text class='orderstate'>{{orderstatutext}}</text>
+
+    <image class='topImg' src=''></image>
+
+    <text class='shopname'>小时逅</text>
+
+</view>
+
+<view class='addressInfo'>
+    <image class='addressImg' src='../../images/orderdetail/location.png'></image>
+    <text class='consignee'>收货人:</text>
+    <text class='consigneename'>{{consignee}}</text>
+    <text class='phone'>{{consignee_contact}}</text>
+    <text class='consigneeaddress'>{{consignee_address}}</text>
+
+</view>
+
+<view class='logisticsWrap'>
+    <image class='logisticsimg' src='../../images/orderdetail/location02.jpg'></image>
+
+    <text class='logisticstext' >期望送达时间: 尽快送到</text>
+
+        <image class='leftdirection' src='../../images/orderdetail/leftdirection03.png'></image>
+
+</view>
+
+<view class='shoptabWrap'>
+        <image class='shopimg' src='../../images/orderdetail/shopimg.jpg'></image>
+        <text class='shoptext' >小时逅</text>
+        <image class='leftdirection02' src='../../images/orderdetail/leftdirection02.png'></image>
+        <text class='contactservice' >联系客服</text>
+
+</view>
+
+ <view wx:for="{{goodsList}}" wx:for-index="idx" wx:for-item="item">
+
+    <view class='shopinglistitem'>
+          <image class='shopinglistimg' src='{{item.thumb}}'></image>
+
+          <text class='orderproductname'>{{item.title}} {{item.goods_option_title}}X{{item.total}}</text>
+          <text class='orderproductprice'>￥{{item.market_price}}</text>
+        
+          <text class='evaluatebutton' data-goods_id='{{item.goods_id}}'  catchtap='procomment'>评价</text>
+    </view>
+</view>
+
+
+<view class='ordertimeandid'>
+      <text class='orderidtext'>订单编号：{{order_number}}</text>
+      <text class='orderbill'>下单时间：{{create_time}}</text>
+</view>
+
+<view class='payway'>
+      <text class='paywaytext'>付款方式：微信支付</text>
+</view>
+
+<view class='logisticsinfo'>
+      <text class='logisticswaytext'>配送方式：普通快递</text>
+      <text class='logisticsdatetext'>配送日期：工作日、双休日与假日均可送货</text>
+</view>
+
+<view class='pricelist'>
+      <text class='pricetag1'>商品总额</text>
+      <text class='pricetag2'>运费</text>
+      <text class='pricetag3'>商品优惠</text>
+      <text class='pricecout1'>￥{{totalmoney}}</text>
+      <text class='pricecout2'>￥{{dispatch_price}}</text>
+      <text class='pricecout3'>-￥{{favorable_price}}</text>
+      
+</view>
+
+<view class='pricecounttotal'>
+      <text class='pricecounttotaltext'>商品总额：￥{{totalmoney}}</text>
+</view>
+
+<view class='recommendproduct'>
+  <text class='recommendproducttext'>为 你 推 荐</text>
+</view>
+
+
+
+<view class='twolevenlist1' catchtap='toproductdetail' data-id='{{recommendproductid}}' style='margin-top:4.4vw' >   
+    <image class='topw1' src='{{recommendImg}}'></image> 
+    <text class='title4'>{{goods_name}}</text>
+    <text class='title5'>{{desc}}</text>
+    <image class='topw2' src='image/xp.jpg'></image> 
+</view>
+<view class='twolevenlist2'>   
+    <image class='topw3' src='image/yj.jpg'></image> 
+    <text class='title6'>{{comment}}</text>
+</view>
+
+
+

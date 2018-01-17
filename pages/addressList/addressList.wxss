@@ -1,0 +1,105 @@
+page{
+  background: #efeff4;
+}
+
+.addressitem1{
+  position: relative;width: 100vw;height: 28.13vw;background: #fff;
+  margin-top: 1.33vw;
+}
+
+.addressitem2{
+  position: relative;width: 100vw;height: 9.47vw;background: #fff;
+  margin-top: 0.27vw;
+}
+.zt1{
+  position: absolute;
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  line-height: 5.6vw;
+  top: 4.53vw;
+  font-family: 微软雅黑;
+  left: 3.2vw; 
+  /* width: 91.07vw; */
+}
+.zt2{
+  position: absolute;
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  line-height: 5.6vw;
+  top: 4.53vw;
+  font-family: 微软雅黑;
+  /* left: 3.2vw; */
+  right: 3.2vw 
+
+}
+.zt3{
+  position: absolute;
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  line-height: 6.4vw; 
+  top: 13.73vw;
+  font-family: 微软雅黑;
+  left: 3.2vw; 
+  width: 90.67vw
+  /* right: 3.2vw  */
+}
+
+.checkboxclass{
+  position: absolute;width: 5.33vw;height: 5.33vw;
+  /* right: 3.2vw  */
+  left:4.1vw;
+   top:1.87vw; 
+  /* top:1vw; */
+   display: block;
+   zoom: 80%;
+}
+
+.zt4{
+  position: absolute;
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  /* line-height: 6.4vw;  */
+  top: 2.5vw;
+  font-family: 微软雅黑;
+  left: 10.97vw; 
+  /* width: 90.67vw */
+  /* right: 3.2vw  */
+}
+.top{
+  position: absolute;
+  width: 6.4vw;
+  height: 6.4vw;
+  top:1.67vw;
+  left: 59.8vw
+}
+.zt5{
+  position: absolute;
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  /* line-height: 6.4vw;  */
+  top: 2.5vw;
+  font-family: 微软雅黑;
+  left: 67.87vw; 
+  /* width: 90.67vw */
+  /* right: 3.2vw  */
+}
+
+.top1{
+  position: absolute;
+  width: 6.4vw;
+  height: 6.4vw;
+  top:1.67vw;
+  right: 13.07vw
+}
+.zt6{
+  position: absolute;
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  /* line-height: 6.4vw;  */
+  top: 2.5vw;
+  font-family: 微软雅黑;
+  /* line-height: 4.53vw;  */
+   right: 4.67vw;  
+  /* width: 90.67vw */
+  /* right: 3.2vw  */
+}

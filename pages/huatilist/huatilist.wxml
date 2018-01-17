@@ -1,0 +1,57 @@
+<!--pages/huatilist/huatilist.wxml-->
+<view class='top'>
+    
+    <image mode='widthFix' class='topimg' src='../../images/huatilist/huatilist01.jpg'></image>
+
+</view>
+
+<view class='huatiexplain'>
+    <view class='huatiexplainWrap'>
+      <text class='huatiexplain01'>{{huatilist[0].post_excerpt}}</text>
+    
+
+      <view class='submitbutton' data-id='{{huatilist[0].id}}' catchtap='tohuatidetail'>
+          <text class='submitbuttontext'>参与话题</text>
+      </view>
+    </view>
+</view>
+
+
+<view class='huatilisttitle'>
+    <text class='huatilisttitletext'>全部话题</text>
+</view>
+
+ <!-- <view > -->
+
+    <view wx:for="{{huatilist}}" wx:for-index="idx" wx:for-item="item" class='huatiitem' data-id='{{item.id}}' catchtap='tohuatidetail'>
+        <text class='huatiitemcontent'>{{item.post_title}}</text>
+
+        <image class='readcountimg' src='../../images/huatilist/attention_fill.png'></image>
+        <text class='readcount'>{{item.post_like}}</text>
+        <image class='commentcountimg' src='../../images/huatilist/comment.png'></image>
+        <text class='commentcount'>{{item.comment_count}}</text>
+        <image class='huatiitemimg' src='{{item.more.photos[0].url}}'></image>
+    </view>
+
+<!-- </view> -->
+
+<!-- 
+<view class='huatiitem' catchtap='tohuatidetail'>
+    <text class='huatiitemcontent'>宝宝第一口奶吃母乳不容易得湿疹？ 看最新的证据怎么说？</text>
+
+    <image class='readcountimg' src='../../images/huatilist/attention_fill.png'></image>
+    <text class='readcount'>582</text>
+    <image class='commentcountimg' src='../../images/huatilist/comment.png'></image>
+    <text class='commentcount'>52</text>
+    <image class='huatiitemimg' src='../../images/huatilist/huatiitem01.jpg'></image>
+</view>
+
+<view class='huatiitem' catchtap='tohuatidetail'>
+    <text class='huatiitemcontent'>宝宝第一口奶吃母乳不容易得湿疹？ 看最新的证据怎么说？</text>
+
+    <image class='readcountimg' src='../../images/huatilist/attention_fill.png'></image>
+    <text class='readcount'>582</text>
+    <image class='commentcountimg' src='../../images/huatilist/comment.png'></image>
+    <text class='commentcount'>52</text>
+    <image class='huatiitemimg' src='../../images/huatilist/huatiitem01.jpg'></image>
+</view> -->

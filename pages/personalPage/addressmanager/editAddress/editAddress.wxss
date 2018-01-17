@@ -1,0 +1,121 @@
+/* pages/editaddress/editaddress.wxss */
+page{
+  background: #efeff4
+}
+
+.item{
+  width: 93.6vw;margin-left: 3.2vw;height: 12.53vw;
+  background: #fff;margin-top: 0.4vw;position: relative;
+}
+
+.itemtitle{
+  position: absolute;font-size: 3.86vw;left: 5.06vw;top: 4.13vw;
+}
+
+.regiontext{
+   position: absolute;width: 50vw;height: 5vw;left: 25vw;top:4.2vw;font-size: 3.86vw
+}
+
+.iteminputclass{
+  position: absolute;width: 50vw;height: 5vw;left: 25vw;top:3.2vw;font-size: 3.86vw
+}
+
+.itemdetail{
+  position: absolute;font-size: 3.86vw;left: 23.73vw;top: 4.13vw;
+}
+
+.addresstagitem{
+  width: 93.6vw;margin-left: 3.2vw;height:20.66vw;
+  background: #fff;margin-top: 0.4vw;position: relative;
+}
+
+.addresstagtext01{
+  width: 10vw;background: #000;position: absolute;top: 4.13vw;left: 31.73vw;
+  font-size: 3.46vw;text-align: center;color: #fff;border: 0.2vw solid #000;
+}
+
+.addresstagtext02{
+  width: 10vw;border: 0.2vw solid #000;position: absolute;top: 4.13vw;left: 53.2vw;
+  font-size: 3.46vw;text-align: center;
+}
+
+.addresstagtext03{
+  width: 10vw;border: 0.2vw solid #000;position: absolute;top: 4.13vw;left: 75.73vw;
+  font-size: 3.46vw;text-align: center;
+}
+
+.tagcolornoselected{
+  background: #fff;color: #000;
+}
+
+.tagcolorselected{
+ background: #000;color: #fff;
+}
+
+.settingdefault{
+  position: absolute;font-size: 3.86vw;left: 13.06vw;top: 13.2vw;
+  color: #9e9e9e;
+
+}
+
+.checkboxclass{
+  position: absolute;font-size: 3.86vw;left: 7.2vw;top: 15.5vw;
+  zoom: 80%;
+}
+
+.addressdialogout{
+  position: absolute;bottom: 0;width: 100vw;height: 100vh;background: rgba(0, 0, 0,0.1);
+  z-index: 222
+}
+
+.addressdialog{
+  position: absolute;bottom: 0;width: 100vw;height: 76vw;background: red;z-index: 11
+  
+}
+
+.addressdialogWrap{
+  position:relative;width: 100vw;height: 63.6vw;background: #fff;
+}
+
+.addressdialogtag{
+  position: absolute;color: #707070;left: 41.13vw;top:4.53vw;
+}
+
+.provinceclass{
+  position: absolute;left: 12vw;top:14.4vw;font-size: 3.6vw;
+}
+
+.cityclass{
+  position: absolute;left: 32vw;top:14.4vw;font-size: 3.6vw;
+}
+
+.districtclass{
+  position: absolute;left: 54.13vw;top:14.4vw;font-size: 3.6vw;
+}
+
+.urbanclass{
+  position: absolute;left: 78.26vw;top:14.4vw;font-size: 3.6vw;
+}
+
+.areatag{
+  position: absolute;top:22.66vw;left: 14vw;font-size: 3.33vw;
+}
+
+.addresslist{
+  position: absolute;width:12.33vw ;height: 31.06vw;
+  left:12vw; top: 28vw;display: flex;flex-direction: column;
+  overflow: auto;
+}
+
+.addressitem{
+  font-size: 3.56vw;margin-top: 3.23vw;color: #8b8b8b;
+}
+
+.submitbutton{
+  position: absolute;width: 100vw;height: 12.93vw;background: #000;text-align: center;
+  bottom: 0;z-index: 233
+}
+
+.submitbuttontext{
+  color: #fff;font-size: 4vw;margin-top:3.5vw;display: inline-block
+}

@@ -1,0 +1,334 @@
+/* pages/buydetail/buydetail.wxss */
+
+page{
+  background: #efeff4;  
+  
+}
+
+body{
+position:fixed;
+top:0;left:0;right:0;bottom:0;
+}
+
+.top{
+  width: 93.6vw;margin-left: 2.95vw;
+  height: 93.6vw;background: #fff;margin-top: 3vw;
+}
+
+.topImage{
+  width: 93.6vw;height: 93.6vw;
+}
+
+.productdescription{
+  width: 93.6vw;height: 21.46vw;background: #fff;
+  margin-left: 2.95vw;margin-top: 1.86vw;display: flex;
+  flex-direction: row
+}
+
+.productdescriptionleft{
+  width: 69.3vw;height: 21.46vw;background: #fff;
+  display:flex; flex-direction:column; 
+}
+
+.verticalline{
+  width:1px;height:16.9vw;background:red;margin-top:2.13vw;
+}
+
+.productdescriptionright{
+  width: 22.66vw;height: 21.46vw;background: #fff;margin-left: 2vw;
+  display: flex;flex-direction: column;text-align: center
+}
+
+.commentcount{
+  font-size:3.76vw;margin-top:2.2vw;color:red;margin-right:3vw;
+}
+
+.commenttag{
+  font-size:3.73vw;margin-top:0.2vw;color:red;margin-right:3vw;
+}
+
+.commentdetail{
+  font-size:2.5vw;margin-top:0.3vw;background:#f0eff5;width:15.9vw;height:3.86vw;
+  margin-left:2.06vw;padding-top:1vw;padding-bottom:1vw
+}
+
+
+.descriable{
+  width: 93.6vw;height: 8vw;background: #fff;margin-left: 2.95vw;
+  margin-top: 1.6vw;
+}
+
+.titledescriable{
+  font-size: 12px;margin-left: 2vw;margin-top: 1.6vw;
+  display: inline-block;color: #858181
+}
+
+.descriableImgWrap{
+  width: 93.6vw;min-height: 92.8vw;background: #fff;margin-left: 2.95vw;margin-top: 2vw;
+}
+
+.descriableImg{
+  width: 93.6vw;min-height: 92.8vw;
+}
+
+.goods_name{
+  font-size:3.73vw;margin-top:3.3vw;margin-left:2vw;font-weight:blod;
+}
+
+.desc{
+  font-size:3.2vw;margin-top:1.53vw;margin-left:2vw;line-height:6vw;
+  color:#bfbfbf;
+}
+
+/**评论*/
+
+
+
+.commentWrap{
+  width: 93.6vw;height: auto;background: #fff;margin-left: 2.95vw;margin-top: 1.6vw;
+  text-align: center;margin-bottom: 14.6vw;
+}
+
+.commentWraptitle{
+  margin-top: 2.93vw;display: inline-block
+}
+
+.contentclasstop{
+   display: flex;flex-direction: row;position: relative;
+   height:12vw;background:#fff
+}
+
+.imagehead{
+  width:9vw;height:9vw;background:#dadada;border-radius:50%;margin-top:2.67vw;margin-left:3.2vw;
+}
+
+.commentuser_name{
+  font-size:2.9vw;margin-left:3.3vw;margin-top:5.2vw;
+}
+
+.contentclassbottom{
+  height:12vw;background:#fff;text-align: left
+}
+
+.contentclassbottomtext{
+  font-size:3vw;margin-left:4vw;
+}
+
+.reply{
+  font-size:2.9vw;position: absolute;top: 5.26vw;right: 26.66vw;color: #a29f9f
+}
+
+.praisecount{
+    font-size:2.9vw;position: absolute;top: 5.26vw;right: 8vw;color: #a29f9f
+
+}
+
+.praise{
+  width: 5.73vw;height: 5.73vw;position: absolute;top: 3.36vw;right: 12.93vw
+}
+
+.contentclassImageList{
+  width:93.6vw;height: 14vw;background: #fff;display: flex;
+  flex-direction: row;
+}
+
+.contentclassImageitem{
+  width: 13.3vw;height: 13.3vw;margin-left:4vw
+}
+
+.buydetailline{
+   width: 88.93vw;height: 1.6vw;margin-left: 2.53vw;display: block;
+   margin-top:1.5vw;
+}
+
+.contentitem1{
+  width:93.6vw;height:24vw;
+}
+
+.contentitem2{
+  width:93.6vw;height:auto;
+}
+
+
+.buttom{
+  width: 100vw;height: 14.6vw;background: #fff;margin-top: 1.6vw;
+  display: flex;flex-direction: row;position: fixed;bottom: 0
+}
+.buttomwrap{
+  width: 100vw;height: 14.6vw;background: #fff;
+  display: flex;flex-direction: row;position: relative;
+}
+
+.verticallinebottom{
+  width: 0.2vw;height: 12.53vw;background: #aaaaaa;position: absolute;
+  left: 23.4vw;top: 1vw;z-index: 34344
+}
+
+.checkshopping{
+  width: 21.2vw;height: 14.6vw;background: #fff;text-align: center;position: relative;
+}
+
+.checkshoppingbutton{
+   width: 21.2vw;height: 14.6vw;background: #fff;text-align: center;position: relative;
+}
+
+.checkshoppingbutton::after{
+  border: 0px solid #bfbfbf;
+
+}
+
+.checkshoppingImg{
+  width: 7.33vw;height: 7.33vw;left: 8.16vw;top: 1.46vw;position: absolute;
+}
+
+.checkshoppingtext{
+  font-size: 3.06vw;bottom: 1.6vw;position: absolute;left: 4.86vw;
+  color: #878585;
+}
+
+.checkshoppingtextcustomer{
+    font-size: 3.06vw;bottom: -0.3vw;position: absolute;left: 6.26vw;
+  color: #878585;
+}
+
+.buttomleft{
+  width: 28.53vw;height: 14.6vw;background: #636161;text-align: center;
+  color: #fff;
+}
+
+.buttomlefttexxt{
+  display:inline-block;font-size:4.13vw;line-height: 14.6vw
+}
+
+.buttomright{
+ width: 28.53vw;height: 14.6vw;background: #000;text-align: center;
+}
+
+.buttomrighttext{
+  display:inline-block;color:#fff;font-size:4.13vw;line-height: 14.6vw
+}
+
+
+
+
+
+/**加入购物车模块*/
+
+.joinshoppingwrap{
+  width:100vw;height:100vh;background:rgba(0, 0, 0, 0.5);position: fixed;
+   bottom: 0; 
+}
+
+.joinshopping{
+  width:100vw;height:118vw;position: fixed;
+   bottom: 0; 
+}
+
+.joinshoppingwrapin{
+  width:100vw;height:118vw;position: relative;background:#fff;
+}
+
+.shoppingproduct{
+  position: absolute;width: 30.66vw;height: 30.66vw;top: 3.2vw;left: 3.46vw;
+}
+
+.productPrice{
+  color: #cc0505;position: absolute;left: 39.06vw;top: 5.06vw;
+  font-size: 4.53vw;
+}
+
+.productrepertory{
+  position: absolute;left: 39.06vw;top: 12.8vw;font-size: 3.86vw;
+}
+
+.producttaste{
+  position: absolute;left: 39.06vw;top: 19.6vw;font-size: 3.86vw;
+}
+
+.closeImg{
+  position: absolute;width: 6.93vw;height: 6.93vw;top:3.73vw;right: 3.73vw; 
+}
+
+.tastetitle{
+  position: absolute;font-size: 4vw;top: 35.3vw;left: 4.93vw;
+}
+
+.tasteselect01{
+  position: absolute;top: 44.66vw;left: 4.93vw;font-size: 3.2vw;text-align: center;
+  padding-top: 2vw;border-radius: 2.66vw;
+  width:30.13vw;height:5.73vw;background:#f7f5f6;
+}
+
+.tasteselect02{
+  position: absolute;top: 44.66vw;left: 38.26vw;font-size: 3.2vw;text-align: center;
+  padding-top: 2vw;border-radius: 2.66vw;
+  width:30.13vw;height:5.73vw;background:#f7f5f6;
+}
+
+.tasteselect03{
+  position: absolute;top: 55vw;left: 4.93vw;font-size: 3.2vw;text-align: center;
+  padding-top: 2vw;border-radius: 2.66vw;
+  width:30.13vw;height:5.73vw;background:#f7f5f6;
+}
+
+.tasteselect04{
+  position: absolute;top: 55vw;left: 38.26vw;font-size: 3.2vw;text-align: center;
+  padding-top: 2vw;border-radius: 2.66vw;
+  width:30.13vw;height:5.73vw;background:#f7f5f6;
+}
+
+.tasteselect05{
+  position: absolute;top: 65.66vw;left: 4.93vw;font-size: 3.2vw;text-align: center;
+  padding-top: 2vw;border-radius: 2.66vw;
+  width:34.93vw;height:5.73vw;background:#f7f5f6;
+}
+
+.line01{
+  position: absolute;width: 91.33vw;height:0.26vw; background: #ededed;
+  bottom: 38.66vw;left: 4vw;
+}
+
+.line02{
+  position: absolute;width: 91.33vw;height:0.26vw; background: #ededed;
+  bottom: 20.93vw;left: 4vw;
+}
+
+.buycounttitle{
+  position: absolute;font-size: 4.26vw;bottom:26.53vw;left: 4.4vw;
+}
+
+.plus{
+  position: absolute;width: 11.73vw;height: 8.86vw;background: #efeff4;
+  right: 4.8vw;bottom: 24.26vw;text-align: center;padding-top: 1vw;
+}
+
+.count{
+  position: absolute;width: 11.73vw;height: 8.86vw;
+  right: 18.06vw;bottom: 24.26vw;text-align: center;padding-top: 1vw;
+}
+
+.minus{
+ position: absolute;width: 11.73vw;height: 8.86vw;background: #efeff4;
+  right: 31.73vw;bottom: 24.26vw;text-align: center;padding-top: 1vw;
+}
+
+.submitbutton{
+  position:absolute;width: 100vw;height: 12.8vw;background: #000;text-align: center;
+  bottom:0;z-index: 111244
+}
+
+.submitbuttontext{
+  color: #fff;display: inline-block;font-size: 4.26vw;z-index: 1113;line-height: 12.8vw;
+}
+
+
+/**发布评论弹出按钮*/
+
+.mycomment{
+  width: 19.2vw;height: 7.06vw;position: fixed;left: 40vw;bottom: 16.66vw;
+}
+
+.mycommentimg{
+  width: 19.2vw;height: 7.06vw;
+}
+

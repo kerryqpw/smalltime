@@ -1,0 +1,9 @@
+<!--pages/toClientDialogue/toClientDialogue.wxml-->
+<!-- <text>pages/toClientDialogue/toClientDialogue.wxml</text> -->
+<contact-button 
+  type="default-light" 
+  size="40"
+  session-from="weapp"
+>
+cvxcv
+</contact-button>

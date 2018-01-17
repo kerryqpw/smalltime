@@ -1,0 +1,6 @@
+<!--pages/localCache/localCache.wxml-->
+<text>本地缓存</text>
+
+<button bindtap="setLocalSession" >设置缓存数据</button>
+<button bindtap="getLocalSession" >获取缓存数据</button>
+<button bindtap="clearLocalSession" >清空缓存数据</button>

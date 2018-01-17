@@ -1,0 +1,99 @@
+
+
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="#fff"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperChange"> 
+  <block wx:key=""  wx:for="{{imgUrls}}" wx:for-item="item">
+
+     <swiper-item  >
+      <image catchtap='clickImg' src="{{item.image}}" id="{{item.id}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+
+<view class='homeentranceWrap'>
+    <view class='homeentranceWrapleft' catchtap='inherit'>
+        <image class='homeentranceImg' src='{{inheritimg}}'></image>
+    </view>
+    <view class='homeentranceWrapright' catchtap='history'>
+        <image class='homeentranceImg' src='{{historyimg}}'></image>
+    </view>
+</view>
+
+<view style='width:100%;height:19.6vw;text-align:center;'>
+    <text class='extragenetictitle' style=''>非物质文化遗产</text>
+    
+    <view class='extragenetictag' style=''>简单的生活</view>
+
+</view>
+
+ <view wx:for="{{extraglist}}" wx:for-index="idx" wx:for-item="item">
+    <view class='extragitem' data-id='{{item.id}}' catchtap='toinhenitdetail' wx:if="{{idx < 2}}" >
+        <image class='extragitemimg' src='{{item.thumb_big}}'></image>
+    </view>
+</view>
+ 
+
+
+
+
+<!-- 故事 -->
+
+<!-- <view class='mystory' catchtap='clickmystory' style='display:{{isshowmystory}}'> -->
+<view class='mystory' catchtap='clickmystory' style='display:none'>
+    <image class='mystoryimg' src='/images/home/mystory01.png'></image>
+</view>
+
+
+ <view class='homedialogwrap' catchtap='clickhomedialog' style='display:{{isshowhomedialog}}'></view>
+    <view class='homedialog' style='display:{{isshowhomedialog}}'>
+      <view class='homedialogwrapin'>
+          <image class='mystorytopimg' src='/images/home/mystory02.jpg'></image>
+          <view class='mystoryInfo'>
+              <text class='storytitle'>讲述我童年的故事</text>
+              <view class='storyimglistWrap'>
+                  <view class='storyimglist'>
+                 
+                      <image class='storyimgitem' wx:if="{{idx < 4}}"  wx:for="{{urlArray}}" wx:for-index="idx" wx:for-item="item"  src='https://api.xshtc.net/upload/{{item.url}}'></image>
+                  </view>
+              </view>
+
+              <image class='mystorycameraimg' catchtap='mystorycamera' src='/images/home/mystory04.jpg'></image>
+
+              <image class='mystorylineimg01' src='/images/home/mystory05.png'></image>
+              <!-- <text class='mystoryaddress'>地点</text> -->
+              <picker class='mystoryaddress' value="{{index}}" range="{{array}}" bindchange="bindPickerChange">  
+    <view class="picker">  
+      地点: {{array[index]}}  
+    </view>  
+  </picker> 
+              <image class='mystorylineimg02' src='/images/home/mystory05.png'></image>
+              <!-- <text class='mystorydata'>时间</text> -->
+               <picker class='mystorydata' mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">  
+    <view class="picker">  
+      日期: {{date}}  
+    </view>  
+  </picker> 
+              <image class='mystorylineimg03' src='/images/home/mystory05.png'></image>
+
+              
+              <textarea  fixed="true" class='storytextarea' bindblur='contentchange' placeholder='故事在这……'></textarea>
+
+                <!--
+              <text class='storytextarea' placeholder='故事在这……'>故事在这……</text>
+-->
+              <image class='mystorylineimg04' src='/images/home/mystory05.png'></image>
+              <text class='close' catchtap='clickhomedialog'>取消</text>
+              <image class='mystoryverticalline01' src='/images/home/mystoryverticalline01.jpg'></image>
+              <text class='confirm' catchtap='confirm'>确定</text>
+              <image class='mystorylineimg05' src='/images/home/mystory05.png'></image>
+          </view>
+      </view>
+ </view> 
+
+
+ 
+
+
+

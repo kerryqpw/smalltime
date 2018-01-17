@@ -1,0 +1,4 @@
+<!--pages/webView/webView.wxml-->
+<text>pages/webView/webView.wxml</text>
+
+<web-view src="https://www.xshtc.net/"></web-view>

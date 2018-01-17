@@ -1,0 +1,40 @@
+<view class='topw'>
+  <image class='topw2' catchtap='tohuatilist' src='image/14.jpg'></image>
+ <image class='topw1' catchtap='tohuatidetail' src='image/18.jpg'></image> 
+
+</view>
+ <image class='topw3' catchtap='tohuatidetail' src='image/13.jpg'></image> 
+
+
+<!-- 图一 -->
+ <view wx:for="{{historytimelist}}" style='position:relative;' wx:for-index="idx" wx:for-item="item">
+
+    <view class='buyclick' data-id='{{item.goods_id}}' catchtap='toproductdetail' ></view>
+
+     <view class='moreclick' data-id='{{item.id}}' catchtap='huatixiangqing01' ></view>
+    <image mode="widthFix" class='topw4' data-id='{{item.id}}' catchtap='huatixiangqing01'  src='{{item.thumb_big}}'></image> 
+  
+
+</view>     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<view class='addressitem3'>
+  <text class='zt4'>发布</text>
+</view> -->

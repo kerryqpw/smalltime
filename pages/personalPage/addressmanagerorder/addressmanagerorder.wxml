@@ -1,0 +1,44 @@
+
+
+ <view class='submitbutton' bindtap='addAddress' style='display:{{isshowAddressbutton}}'>
+                    <text class='submitbuttontext'>新增地址</text>
+        </view>
+
+<view wx:for="{{addressList}}"    
+   wx:for-index="idx" wx:for-item="address"
+   
+   id="{{address.id}}" data-id='{{address.id}}' data-province_name="{{address.province_name}}"
+            data-prpvice_name data-city_name="{{address.city_name}}" data-county_name="{{address.county_name}}" 
+             data-tel_number="{{address.tel_number}}" data-tag="{{address.tag}}"
+             data-user_name="{{address.user_name}}"
+             data-detail_info="{{address.detail_info}}" data-is_default='{{address.is_default}}' 
+             catchtap='settingdefaultAddress' 
+   >
+      <view class='addressitem1'    >
+          <text  class='zt1'>{{address.user_name}}</text>
+          <text class='zt2'>{{address.tel_number}}</text>
+          <text class='zt3'>{{address.province_name}}{{address.city_name}}{{address.county_name}}{{address.detail_info}}</text>
+      </view>
+
+
+      <view class='addressitem2'   >
+        <checkbox class='checkboxclass' disabled="" id="{{address.id}}" data-id='{{address.id}}' data-province_name="{{address.province_name}}"
+            data-prpvice_name data-city_name="{{address.city_name}}" data-county_name="{{address.county_name}}" 
+             data-tel_number="{{address.tel_number}}" data-tag="{{address.tag}}"
+             data-user_name="{{address.user_name}}"
+             data-detail_info="{{address.detail_info}}" data-is_default='{{address.is_default}}' 
+             catchtap='settingdefaultAddress'  checked='{{address.is_default}}' ></checkbox>
+        <text class='zt4'>默认地址</text>
+        <image class='top' src='image/edit.png'></image>
+
+         <text class='zt5' bindtap='editAddress' id="{{address.id}}" data-province_name="{{address.province_name}}"
+            data-prpvice_name data-city_name="{{address.city_name}}" data-county_name="{{address.county_name}}" 
+             data-tel_number="{{address.tel_number}}" data-tag="{{address.tag}}"
+             data-user_name="{{address.user_name}}"
+             data-detail_info="{{address.detail_info}}" data-is_default='{{address.is_default}}' >编辑</text>
+
+          <image class='top1' src='image/delete.png'></image>
+        <text class='zt6' data-id='{{address.id}}' data-index='{{idx}}' bindtap='deleteAddress'>删除</text>
+      </view>
+
+</view>

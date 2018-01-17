@@ -1,0 +1,54 @@
+
+<view class='topWrap'>
+   <image class='top' src='{{topImage}}'></image>
+   <view class='title'>唯有美食与爱不可辜负
+   <view class='title1'>家庭料理的不刻意</view>
+   </view> 
+</view>
+
+
+
+ <view wx:for="{{chuanchenglist}}" wx:for-index="idx" wx:for-item="item">
+          <view   style='height:36.56vw;margin:0;margin-top:1.64vh;' >
+              <!-- <image class='top1' src='image/cc4.png'></image> -->
+              <!-- autoplay="{{autoplay}}" -->
+              <swiper  indicator-dots="{{indicatorDots}}" 
+            interval="{{interval}}" duration="{{duration}}" bindchange="swiperChange"> 
+            <block >
+              <swiper-item catchtap='clickclassfy' data-id='{{idx}}' >
+                <image mode="widthFix" bindtap='clickImg' src="{{item.more.thumbnail}}" data-id='{{idx}}' id="{{item.id}}" class="slide-image"/>
+              </swiper-item>
+            </block>
+          </swiper>
+
+          </view>
+
+
+    <view style="{{idx == currentcontentclassfyId?'display: block;':'display: none;'}}" >
+          <view    wx:for="{{item.chuanchengcontentlist.list}}" wx:for-index="idx2" wx:for-item="gooditem" >
+
+            <view mode="widthFix" class='twolevenlist' data-id='{{gooditem.id}}' catchtap='toinheritdetail'  >
+                
+                <view class='twolevenitem'>
+                <image mode="widthFix" class='topw' src='{{gooditem.more.thumbnail}}'></image> 
+                <view class='title2'>{{gooditem.post_title}}</view>
+                <view class='title3'>{{gooditem.post_excerpt}}</view>  
+                </view>     
+            </view>
+
+        </view>  
+</view>
+        
+
+</view>
+
+
+
+
+
+
+
+
+
+
+

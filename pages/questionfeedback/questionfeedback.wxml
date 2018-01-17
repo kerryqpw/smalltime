@@ -1,0 +1,39 @@
+
+<view class='item'>
+    <text class='itemtag'>用户名：</text>
+    <input class='username' placeholder='请输入用户名'></input>
+
+</view>
+
+
+<view class='item'>
+    <text class='itemtag'>联系方式：</text> 
+    <input class='phone' placeholder='请输入联系方式'></input>
+
+</view>
+
+<textarea class='questioninfo' placeholder='反馈信息巴啦啦……'></textarea>
+
+<view class='submitbutton'>
+    <text class='submitbuttontext'>发布</text>
+</view>
+
+<view class='questionlisttitle'>
+    <text class='questionlisttitletext'>常见问题</text>
+</view>
+
+<view class='questionitem'>
+    <text class='questionitemtext'>Q1：延迟发货的规则与实施细则</text>
+</view>
+
+<view class='questionitem'>
+    <text class='questionitemtext'>Q2：具体哪些情形属于本规则管理范围？</text>
+</view>
+
+<view class='questionitem'>
+    <text class='questionitemtext'>Q3：“为出售假冒、盗版商品”是指哪些行为？</text>
+</view>
+
+<view class='questionitem'>
+    <text class='questionitemtext'>Q4：盗版商品包括哪些？</text>
+</view>

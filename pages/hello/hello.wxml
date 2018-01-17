@@ -1,0 +1,76 @@
+<!--hello.wxml-->
+<text>{{motto}}</text>
+<text>{{userInfo.asd}}</text>
+
+
+
+<button bindtap="gotoHello2" type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+          hover-class="other-button-hover"> 进入UI测试界面 </button>
+<button bindtap="gotoMusicPage2" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" > 音乐天地 </button>
+<button type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="gotoVideoPage3"> 电影时光 </button>
+<button style="background:gray;color:#fff" bindtap="gotoMapPage2">地图</button>
+<button bindtap="gotoRichTextPage3">富文本</button>
+<button bindtap="setLoading">点击设置以上按钮loading属性</button>
+<button open-type="animations" bindtap='animations'>动画</button>
+<button bindtap="ajaxrequest">ajax请求数据</button>
+<button bindtap="localCache">本地缓存</button>
+<button bindtap="toWeChatWeChat">开放到微信公众号</button>
+<button bindtap="toWeChatFlock">开放到微信群</button>
+<button bindtap="toClientDialogue">客服会话</button>
+<button bindtap="tophotograph">拍照</button>
+<button bindtap="impower">授权</button>
+<button bindtap="sideslip">侧滑</button>
+<button bindtap="aroundsideslip">左右滑动</button>
+
+<button bindtap="slideshow">轮播图</button>
+<button bindtap="leftrightpageslide">左右页面滑动</button>
+
+
+<button bindtap="webView">跳转webView</button>
+<button bindtap='scrollview'>可视滑动</button>
+<button bindtap='template'>模版</button>
+<button bindtap='navigator'>导航</button>
+<button bindtap='sideslipdelete'>侧滑删除</button>
+<button bindtap='buydetail'>购买详情</button>
+<button bindtap='inheritdetail'>传承详情</button>
+<button bindtap='orderpayment'>订单付款页面</button>
+<button bindtap='shoppingunfold'>购物车展开</button>
+<button bindtap='questiondetail'>问题详细</button>
+<button bindtap='editaddress'>编辑地址</button>
+
+<button bindtap='addressList'>地址列表</button>
+<button bindtap='questionfeedback'>我要反馈</button>
+
+<button bindtap='paysuccess'>付款成功</button>
+
+<button bindtap='inheritlist'>传承列表</button>
+<button bindtap='comment'>评论</button>
+<button bindtap='updatephone'>修改绑定手机号</button>
+
+<button bindtap='orderdetail'>订单详细</button>
+
+<button bindtap='huatixiangqing01'>话题详情1</button>
+<button bindtap='huatixiangqing02'>话题详情2</button>
+
+<button bindtap='productlist'>商品列表</button>
+
+<button bindtap='historytime'>历史年代</button>
+
+<button bindtap='ssou'>搜索</button>
+
+<button bindtap='huatilist'>话题列表</button>
+<button bindtap='transportstate'>运输状态</button>
+
+<button bindtap='commentdetail'>评论详细</button>
+
+<button bindtap='homesecondfloor'>首页二楼</button>
+
+
+
+
+
+<view wx:for="{{ajaxdata}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx}}: {{itemName.img}}
+</view>

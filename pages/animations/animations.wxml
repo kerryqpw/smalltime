@@ -1,0 +1,5 @@
+<!--pages/animations/animations.wxml-->
+<text>pages/animations/animations.wxml</text>
+<button bindtap="magnify">放大缩小</button>
+<button bindtap="allAnimationInfo">动画列表</button>
+<button bindtap="fadeInFadeOut">淡入淡出功能</button>

@@ -1,0 +1,94 @@
+page{
+  background: #efeff4;
+}
+.addressitem1{
+  position: relative;width: 100vw;height: 11.73vw;background: #fff;
+  margin-top: 0.93vw;
+}
+
+.addressitem2{
+  position: relative;width: 100vw;height: 62.53vw;background: #fff;
+  margin-top: 0.3vw;
+}
+.addressitem3{
+  position: relative;width: 100vw;height: 11.73vw;background: #fff;
+  margin-top: 0.3vw;
+  /* margin-left: 66.4vw; */
+}
+.zt1{
+  position: absolute; 
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.5vw;
+  font-family: 微软雅黑;
+  left: 3.2vw; 
+  /* width: 91.07vw; */
+}
+
+.addressitem4{
+  position: relative;width: 100vw;height: 11.73vw;background: #fff;
+  margin-top: 0.3vw;text-align: center
+}
+
+
+
+.zt4{
+  color: black;
+  font-size: 4.27vw;
+  margin-top: 2.93vw;
+  font-family: 微软雅黑;
+  display: inline-block
+}
+.newphoneinput{
+  position: absolute;
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 2.8vw;
+  font-family: 微软雅黑;
+  left: 14.67vw;
+  width: 100vw;
+  height: 3.5vw
+}
+.newphoneinput1{
+  position: absolute;
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 2.8vw;
+  font-family: 微软雅黑;
+  left: 3.2vw;
+  width: 100vw;
+  height: 3.5vw
+}
+.newphoneinput2{
+  position: absolute;
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.73vw;
+  font-family: 微软雅黑;
+  left: 3.2vw;
+  width: 93.6vw;
+  height: 30vw
+}
+
+.topw1{
+  position: absolute;
+  width: 18vw;
+  height: 18vw;
+  top: 41.2vw;
+  left: 16.4vw
+}
+.topw2{
+  position: absolute;
+  width: 18vw;
+  height: 18vw;
+  top: 41.2vw;
+  left: 39.07vw
+}
+.topw3{
+  position: absolute;
+  width: 18vw;
+  height: 18vw;
+  top: 41.2vw;
+  left: 61.73vw
+}
+

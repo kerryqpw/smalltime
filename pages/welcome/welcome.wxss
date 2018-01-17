@@ -1,0 +1,57 @@
+/* pages/welcome/welcome.wxss */
+
+page{
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*功能*/
+.clear{
+  clear: both;
+}
+
+
+/*头部 */
+.header{
+  width:100%;height:40px;
+}
+
+.selectImg{
+  width:30px;height:30px;margin-top:5px;margin-left:10px;
+}
+
+.listImg{
+  width:30px;height:30px;float :right;margin-top:5px;margin-right:10px;
+}
+
+
+
+
+.container{
+  display:flex;  /*弹性盒子模型*/
+  flex-direction:column;  /*主轴方向为纵向*/
+  justify-content: initial; 
+  align-items: center;
+  height: 100%;/**设置高度*/
+  background: #fff;
+  padding: 0px;
+  margin: 0px;
+   
+}
+
+.avatar{
+  width:200rpx;
+  height:200rpx;
+  border-radius: 50%; 
+  box-shadow: 0 0 9px #222;
+}
+
+.user-wel{
+  color: #fff;
+  font-size: 30px;
+}
+
+button{
+  width: 50vw;
+}

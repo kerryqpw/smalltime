@@ -1,0 +1,145 @@
+/* pages/paysuccess/paysuccess.wxss */
+
+
+page{
+  background: #efeff4;  
+
+}
+
+.top{
+  width: 100vw;height: 38.66vw;background: #fff;margin-top: 1.06vw;text-align: center
+}
+
+.toptext{
+  font-size: 3.73vw;margin-top: 16.2vw;display: inline-block;letter-spacing: 0.05vw;
+  color: #5a5757;
+}
+
+.submitbutton{
+  width: 100vw;height: 12vw;margin-top: 0.53vw;background: #fff;text-align: center
+}
+
+.submitbuttontext{
+  font-size: 4.66vw;margin-top: 3.13vw;display: inline-block;
+  color: #000;
+}
+
+.pruductrecommendtitle{
+  font-size: 4vw;margin-top: 4vw;display: inline-block;
+  margin-left: 3.33vw;color: #5a5757
+}
+
+
+.recommendproductWrap{
+  width: 93.6vw;margin-top: 4.8vw;margin-left: 3.2vw;height: 35.33vw;background: #fff
+}
+
+/**推荐商品*/
+.pruductrecommendWrap{
+  width: 93.6vw;height: 35.06vw;margin-left: 2.93vw;background: red;margin-top: 1.33vw;
+}
+
+.pruductrecommendImage{
+  width: 93.6vw;height: 35.06vw;
+}
+
+
+.middleInto{
+  width: 93.6vw;height: 6.4vw;margin-left: 2.93vw;background: #fff;margin-top: 1.33vw;
+  display: flex;flex-direction: row;
+}
+
+.middleIntoImage{
+  width: 4.26vw;height: 4.26vw;margin-left: 3.2vw;margin-top: 1vw;
+}
+
+.middleIntoText{
+  margin-left: 1.86vw;font-size: 3.2vw;margin-top: 1vw;color: #7a7777;
+}
+
+
+/**推荐商品*/
+
+.topw1{
+    /* margin-top: 20.67vw;  */
+   position: absolute; 
+   left: 57.2vw;
+   top: 2.1vw;  
+   width:31vw;
+   height:31vw; 
+   display: block; 
+   /* margin: 0 auto  */
+}
+.twolevenlist1{
+position: relative;
+ background: #fff;
+ width: 93.6vw;height:35.2vw; 
+ /* text-align: center;      */
+ margin: 0 auto;
+ margin-top: 2.67vw;
+ 
+}
+
+.title4{
+  position: absolute;
+  left: 4vw;
+  font-size: 3.47vw;
+  top: 7.33vw;
+  display: inline-block;
+  font-family: 微软雅黑;
+  letter-spacing: 0.2vw;
+  
+  
+}
+
+.title5{
+  position:absolute; 
+  font-size: 2.93vw; 
+  color: #858181;
+  top: 12.17vw;
+  left: 4vw;
+  width: 49.8vw;
+  line-height: 4vw;
+  font-family: 微软雅黑;
+}
+
+.topw2{
+  position: absolute; 
+   left: 4.3vw;
+   top: 22.13vw;  
+   width:23.73vw;
+   height:6vw; 
+   /* display: block;  */
+   display: inline-block;
+}
+
+
+.twolevenlist2{
+position: relative;
+ background: #fff;
+ width: 93.6vw;height:6.4vw; 
+text-align: center;      
+ margin: 0 auto;
+ margin-top: 1.2vw;
+ 
+}
+
+.topw3{
+   position: absolute; 
+   left: 3.43vw;
+   top: 0.93vw;  
+   width:4.53vw;
+   height:4.53vw; 
+   /* display: block;  */
+   display: inline-block;
+}
+
+
+.title6{
+  position:absolute; 
+  font-size: 3.2vw; 
+  font-family: 微软雅黑;
+  color: #858181;
+  top: 1.07vw; 
+  left: 9.77vw;
+}

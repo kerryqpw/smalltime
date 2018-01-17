@@ -1,0 +1,130 @@
+<!--pages/buydetail/buydetail.wxml-->
+<view class='top'>
+    <image class='topImage' src='../../images/buydetail/buydetail01.jpg' ></image>
+</view>
+
+<view class='productdescription'>
+    <view class='productdescriptionleft'>
+        <text style='font-size:3.4vw;margin-top:2.8vw;margin-left:2vw;font-weight:blod;'>猪肉猪肉脯休闲食品零食小吃特产靖江猪肉</text>
+        <text style='font-size:3.4vw;margin-top:1.53vw;margin-left:2vw;color:#858181'>川菜系也是一个历史悠久的菜系，其发源</text>
+        <text style='font-size:3.4vw;margin-top:1.53vw;margin-left:2vw;color:#858181;'>地是古代的巴国和蜀国。</text>
+    </view>
+
+
+    <view class='verticalline' style=''></view>
+
+    <view class='productdescriptionright'>
+        <text style='font-size:2.16vw;margin-top:4.2vw;color:red;margin-right:3vw'>999+</text>
+        <text style='font-size:2.7vw;margin-top:0.2vw;color:red;margin-right:3vw'>用户评价</text>
+        <text style='font-size:2.5vw;margin-top:0.3vw;background:#f0eff5;width:15.9vw;height:3.86vw;margin-left:2.06vw;padding-top:1vw;padding-bottom:1vw'>点击查看</text>
+    </view>
+</view>
+
+
+<view class='descriable'>
+   <view class='titledescriable'>文字描述</view>
+</view>
+
+
+<view class='descriableImgWrap'>
+   <image class='descriableImg' src='../../images/buydetail/buydetail02.jpg'></image>
+</view>
+
+
+<!-- 评论 -->
+
+<view class='commentWrap'>
+    <view class='commentWraptitle'>评论</view>
+    <view style='height:1px;background:grep'> </view>
+
+    <view class='contentitem1' style='width:93.6vw;height:24vw;background:red'>
+        <view class='contentclasstop' style='height:12vw;background:#fff'>
+            <image style='width:9vw;height:9vw;background:#dadada;border-radius:50%;margin-top:2.67vw;margin-left:3.2vw'></image>
+
+            
+            <text style='font-size:2.9vw;margin-left:3.3vw;margin-top:5.2vw'>DERBA</text>
+
+            <text class='reply'>回复（10）</text>
+            <text class='praisecount'>10</text>
+            <image class='praise' src='../../images/buydetail/praise01.png'></image>
+        </view>
+        <view class='contentclassbottom' style='height:12vw;background:#fff'>
+                    <text style='font-size:3vw;margin-left:-7vw'>三大炮有香甜可口、不腻不粘又化渣的特点，且价廉物美。</text>
+        <image class='buydetailline' style='margin-top:4.5vw'  src='../../images/inheritdetail/buydetailline01.jpg'></image>
+
+        </view>
+
+    </view>
+    <view style='height:1px;background:grep'> 
+    </view>
+    <view class='contentitem1' style='width:93.6vw;height:35.7vw;background:red'>
+    
+           <view class='contentclasstop' style='height:12vw;background:#fff'>
+            <image style='width:9vw;height:9vw;background:#dadada;border-radius:50%;margin-top:2.67vw;margin-left:3.2vw'></image>
+
+            
+            <text style='font-size:2.9vw;margin-left:3.3vw;margin-top:5.2vw'>DERBA</text>
+
+            <text class='reply'>回复（10）</text>
+            <text class='praisecount'>10</text>
+            <image class='praise' src='../../images/buydetail/praise01.png'></image>
+        </view>
+        <view class='contentclassbottom' style='height:12vw;background:#fff'>
+                    <text style='font-size:3vw;margin-left:-7vw'>三大炮有香甜可口、不腻不粘又化渣的特点，且价廉物美。</text>
+
+        </view>
+
+
+        <view class='contentclassImageList'>
+            <image class='contentclassImageitem' src='../../images/inheritdetail/buydetail01.jpg'></image>
+            <image class='contentclassImageitem' style='margin-left:2.1vw' src='../../images/inheritdetail/buydetail01.jpg'></image>
+            <image class='contentclassImageitem' style='margin-left:2.1vw' src='../../images/inheritdetail/buydetail01.jpg'></image>
+
+
+        </view>
+         <image class='buydetailline' style='margin-top:1vw' src='../../images/inheritdetail/buydetailline01.jpg'></image>
+
+    </view>
+    
+    </view>
+
+
+
+
+
+<!-- 加入购物车模块 -->
+    <view class='joinshoppingwrap' style='display:none'></view>
+    <view class='joinshopping' style='display:none'>
+        <view class='joinshoppingwrapin'>
+            <image class='shoppingproduct'  src='../../images/buydetail/shoping01.jpg'></image>
+
+            <text class='productPrice'>$288元</text>
+            <text class='productrepertory'>库存573件</text>
+            <text class='producttaste'>请选择 口味</text>
+
+            <image class='closeImg' src='../../images/close03.jpg'></image>
+
+            <text class='tastetitle'>口味</text>
+
+            <text class='tasteselect01' >香辣卤烤/传统装</text>
+            <text class='tasteselect02' >新奥尔良/传统装</text>
+            <text class='tasteselect03' >香辣卤烤/卡通装</text>
+            <text class='tasteselect04' >蜂密卤烤/传统装</text>
+            <text class='tasteselect05' >香辣7只+奥尔良8只</text>
+
+            <text class='buycounttitle'>购买数量</text>
+            <text class='minus'>-</text>
+            <text class='count'>1</text>
+            <text class='plus'>+</text>
+            <view class='line01'></view>
+            <view class='line02'></view>
+
+
+        </view>
+    </view>
+
+
+ <view class='buttom'>           
+       <view class='buttomleft'><text style='display:inline-block;margin-top: 4vw;font-size:4.13vw'>立即购买</text></view>
+       <view class='buttomright'><text style='display:inline-block;margin-top: 4vw;color:#fff;font-size:4.13vw'>加入购物车</text></view>
+</view>

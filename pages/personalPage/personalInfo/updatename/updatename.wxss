@@ -1,0 +1,38 @@
+page{
+  background: #efeff4;
+}
+.addressitem1{
+  position: relative;width: 100vw;height: 16vw;background: #fff;
+  margin-top: 0.93vw;
+}
+
+
+.zt4{
+  color: #959596;
+  font-size: 3.73vw;
+  /* letter-spacing:0.53vw ;  */
+  margin-top: 0.16vw;
+  font-family: 微软雅黑;
+  /* left: 3.33vw;  */
+  /* width: 91.07vw; */
+  margin-left: 3.33vw;
+  display: inline-block
+
+}
+.newphoneinput{
+  position: absolute;
+  font-size: 4.27vw;
+  /* letter-spacing:0.53vw ;  */
+  top: 3.73vw;
+  left: 3.33vw;
+    font-family: 微软雅黑;
+
+}
+.submitbutton{
+width: 100vw;height:12.8vw;position: absolute;bottom: 0;text-align: center;
+background: #000;
+}
+
+.submitbuttontext{
+color: #fff;font-size: 3.86vw;margin-top: 4vw;display: inline-block
+}

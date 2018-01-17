@@ -1,0 +1,75 @@
+
+
+<view class='container' >
+
+    <!-- 头部 -->
+
+    <view class='header'>
+        <image bindtap='clickhome' class='selectImg' src='/images/welcome/select01.png'></image>    
+        <image class='listImg'   src='/images/welcome/list01.png'></image>
+        <div class='clear' ></div> 
+    </view>
+    <!-- 推荐标签 -->
+
+    <view style=' width:100%;display:flex;flex-direction:row;margin-top:10px '>
+      <view style='width:40%;background:#000;color:#fff;text-align: center;line-height:50px;'>
+        今日推荐
+      </view>
+      <view style='width:40%;background:#3d3d3d;color:#fff;text-align:center;line-height:50px;'>
+        本周热门
+      </view>
+        <view style='width:40%;background:#3d3d3d;color:#fff;text-align: center;line-height:50px;'>
+        本周热门
+      </view>
+    </view>
+    <!-- 地域标记 -->
+    <view style=' width:100%;display:flex;flex-direction:row;margin-top:10px '>
+      <view style='width:25%;display:flex;flex-direction:column;text-align: center;'>
+            <image style='width:30px;height:30px;margin:0 auto' src="/images/myCoupon.png" ></image>
+            <text>四川15道</text>
+            <text>20个特产</text>
+      </view >
+      <view style='width:25%;display:flex;flex-direction:column;text-align: center;'>
+         <image style='width:30px;height:30px;margin:0 auto' src="/images/myCoupon.png" ></image>
+            <text>四川15道</text>
+            <text>20个特产</text>
+      </view>
+      <view style='width:25%;display:flex;flex-direction:column;text-align: center;'>
+         <image style='width:30px;height:30px;margin:0 auto' src="/images/myCoupon.png" ></image>
+            <text>四川15道</text>
+            <text>20个特产</text>
+      </view>
+      <view style='width:25%;display:flex;flex-direction:column;text-align: center;'>
+         <image style='width:30px;height:30px;margin:0 auto' src="/images/myCoupon.png" ></image>
+            <text>四川15道</text>
+            <text>20个特产</text>
+      </view>
+    </view>
+
+    <!--产品列表-->
+    <view style='width:100%;display:flex;flex-direction:column;text-align: center;'>
+        <view style='width:100%;height:200px;background:red;'>
+              <view style='width:100%;display:flex;flex-direction:row;text-align:center;'>
+                    <image style='width:30px;height:30px;margin:0 auto;float:left;margin-top:10px;margin-left:10px' src="/images/myCoupon.png"  ></image>
+                    <view style='width:100%;display:flex;flex-direction:column;padding:0;margin:0;'>
+                         <text style='text-align:left;margin-left:10px;font-size:10px;margin-top:10px'>成都小魏鸡蛋燕麦早餐</text>
+                         <text style='text-align:left;margin-left:10px;font-size:10px;margin-top:3px'>川派小吃</text>                
+                    </view>
+                    
+                      <image style='width:30px;height:30px;margin:0 auto;margin-top:10px;;margin-left:10px' src="/images/myCoupon.png"  ></image>
+
+              </view>
+           <image style='width:100%;height:100px;margin:0 auto;margin-top:10px;' src="/images/banner01.jpg"  ></image>
+          
+              
+        </view>
+        
+    </view> 
+
+    <view>
+        <image style='width:30px;height:30px;margin-top:200px' src="/images/myCoupon.png" ></image>
+    </view>   
+  
+    
+</view>
+

@@ -1,0 +1,26 @@
+<view class='top'>
+    <text class='toptext'>谢谢您的购买！</text>
+</view>
+
+<view class='submitbutton' catchtap='tomyOrder'>
+    <text class='submitbuttontext'>确定</text>
+</view>
+
+<text class='pruductrecommendtitle' >我觉得，你可能需要：</text>
+
+
+
+<view class='twolevenlist1' catchtap='toproductdetail' data-id='{{recommendproductid}}' style='margin-top:4.4vw' >   
+    <image class='topw1' src='{{recommendImg}}'></image> 
+    <text class='title4'>{{goods_name}}</text>
+    <text class='title5'>{{desc}}</text>
+    <image class='topw2' src='image/xp.jpg'></image> 
+</view>
+<view class='twolevenlist2'>   
+    <image class='topw3' src='image/yj.jpg'></image> 
+    <text class='title6'>{{comment}}</text>
+</view>
+
+
+
+

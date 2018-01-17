@@ -1,0 +1,7 @@
+<!--richText.wxml-->
+<text>richText.wxml</text>
+
+
+<rich-text nodes="{{nodes}}" bindtap="tap">sfsfsf</rich-text>
+
+<text>{{description}}</text>

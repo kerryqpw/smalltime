@@ -1,0 +1,45 @@
+<view class='addressitem1'>
+<text class='zt1' catchtap='catchtag01' style='{{tagselect01}}'>全部</text>
+<text class='zt2' catchtap='catchtag02' style='{{tagselect02}}' >待付款</text>
+<text class='zt3' catchtap='catchtag03' style='{{tagselect03}}'>待发货</text>
+<text class='zt4' catchtap='catchtag04' style='{{tagselect04}}'>已完成</text>
+<text class='zt5' catchtap='catchtag05' style='{{tagselect05}}'>已取消</text>
+</view>
+
+ <view wx:for="{{orderlist}}" wx:for-index="idx" wx:for-item="item">
+
+      <view class='addressitem2'>
+      <image class='topw1' src='image/2.png'></image>
+      <text class='zt6'>订单号：{{item.order_number}}</text>
+
+      </view>
+
+      <!-- 多个商品 -->
+      <view class='addressitem3' wx:if="{{item.goods.length>1}}" data-id='{{item.id}}' data-status='{{item.status}}' data-order_number='{{item.order_number}}' catchtap='toorderdetail'>
+      <image  wx:for="{{item.goods}}" wx:for-index="idx" wx:for-item="goodinfo" class='goodsitem' src='{{goodinfo.thumb}}'></image>
+      
+      </view>
+
+        <!-- 单个商品 -->
+          <view class='addressitem3'  wx:for="{{item.goods}}" wx:for-index="idx" wx:for-item="goodinfo" wx:if="{{item.goods.length==1}}" data-id='{{item.id}}' data-status='{{item.status}}' data-order_number='{{item.order_number}}' catchtap='toorderdetail'>
+              <image class='topw3' src='{{goodinfo.thumb}}'></image>
+              <text class='zt7'>{{goodinfo.title}}</text>
+              <text class='zt9'>商品数量：</text>
+              <text class='zt10'>总价:{{goodinfo.price}}</text>   
+              <text class='zt12'>{{goodinfo.total}}</text> 
+    </view>
+
+      <view class='addressitem4'>
+        <text class='zt13'>共一件商品</text>
+        <text class='zt14'>合计：￥{{item.price}}（含运费{{item.dispatch_price}}）</text>
+        </view>
+        <view class='addressitem5'>
+        <text wx:if="{{item.status==1}}" class='zt16' data-id='{{item.id}}' data-status='{{item.status}}' data-order_number='{{item.order_number}}' catchtap='toorderdetail'>再次购买</text>
+
+         <text wx:if="{{item.status==0}}"  class='zt16' data-id='{{item.id}}' data-status='{{item.status}}'  data-order_number='{{item.order_number}}' catchtap='toorderdetail'>去付款</text>
+        </view>
+
+</view> 
+
+
+

@@ -1,0 +1,70 @@
+/* pages/mywallet/mywallet.wxss */
+
+page{
+    background: #efeff4;
+}
+
+
+
+.leftdection{
+  width: 20px;height: 20px;position:absolute;left: 0;
+  margin-top: 5px;margin-left: 20px;
+}
+
+.mywalletInfo{
+  position: relative;background:#3d3d3d;width:100vw;height:16vw;
+  margin-top:1.5vw;
+
+}
+
+.balancecount01{
+  position: absolute;left: 50.4vw;line-height: 16vw;font-size: 3.8vw;
+  color: #fff;letter-spacing: 0.2vw
+}
+
+.balancetag{
+  position: absolute;left: 38.5vw;line-height: 16vw;font-size: 3.8vw;
+  color: #fff;
+}
+
+.integralcount{
+  position: absolute;right: 17.2vw;top: 3.45vw;font-size: 3.2vw;
+ color: #fff;letter-spacing: 0.2vw
+}
+
+.integraltag{
+  position: absolute;right: 18.3vw;bottom: 2.88vw;font-size: 3.8vw;
+  color: #fff;
+}
+
+
+
+.title{
+  text-align: center;height: 8.7vw;
+  margin-top: 4.6vw;font-size: 4.13vw;
+  color: #3d3d3d
+}
+
+
+
+.listItem{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 13.33vw;
+  border-bottom: 0.133vw dashed  #646769;
+  position: relative;
+}
+
+.date{
+  font-size: 3.6vw;position: absolute;top: 7.6vw;left: 3.3vw;
+}
+
+.itemtag{
+  position: absolute;font-size: 3.6vw;top: 7.4vw;left: 41.03vw;
+}
+
+.balancecount{
+ position: absolute;font-size: 3.6vw;top: 7.6vw;
+ left:79.66vw;color: red
+}

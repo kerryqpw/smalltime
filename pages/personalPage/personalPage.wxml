@@ -1,0 +1,78 @@
+
+<view class='userInfo' style="background:url('http://api.xshtc.net/upload/portal/20180108/ca0221064a1a53423d9937f28c83c220.jpg') no-repeat; background-size:100% 100%;  -moz-background-size:100% 100%;  " >
+    <view class='settingWrap' catchtap='personalsetting'>
+        <image class='setting'  src='../../images/personal/settingImg.png'  ></image>
+    </view>
+
+    <image class='headImg' style='' src='{{avatarUrl}}'></image>
+    <text class='username'>{{nickName}}</text>
+    <text class="userintroduce">（普通会员）</text>
+    
+
+</view>
+
+<view class='label' catchtap='myOrder' style='margin-top:1.33vw' >
+    <image class='lableImg' src='../../images/personal/personal02.jpg' ></image>
+
+    <text class='labeltitle'>我的订单</text>
+    <image class='leftdirection' src='../../images/leftdirection.png' ></image>
+</view>
+
+<view class='line'></view>
+
+<view bindtap='shoppingCat' class='label' >
+    <image class='lableImg' src='../../images/personal/personal03.jpg' ></image>
+
+    <text class='labeltitle'>购物车</text>
+    <image class='leftdirection' src='../../images/leftdirection.png' ></image>
+</view>
+
+<view class='line'></view>
+
+<view bindtap='addressmanager' class='label' >
+    <image class='lableImg' src='../../images/personal/personal04.jpg' ></image>
+
+    <text  class='labeltitle'>地址管理</text>
+    <image class='leftdirection' src='../../images/leftdirection.png' ></image>
+</view>
+
+<view class='line'></view>
+
+
+<view  bindtap='wallet' class='label' >
+    <image class='lableImg' src='../../images/personal/personal05.jpg' ></image>
+
+    <text class='labeltitle'>我的钱包</text>
+    <image class='leftdirection' src='../../images/leftdirection.png' ></image>
+</view>
+
+<view class='line'></view>
+
+
+<view class='label' bindtap='mydiscount' >
+    <image class='lableImg' src='../../images/personal/personal06.jpg' ></image>
+
+    <text class='labeltitle'>我的优惠券</text>
+    <image class='leftdirection' src='../../images/leftdirection.png' ></image>
+</view>
+
+<view class='line'></view>
+
+<view class='label' bindtap='IWillfeedback' >
+    <image class='lableImg' src='../../images/personal/personal07.jpg' ></image>
+
+    <text class='labeltitle'>我要反馈</text>
+    <image class='leftdirection' src='../../images/leftdirection.png' ></image>
+</view>
+
+<view class='line'></view>
+
+
+<!-- <view class='label' bindtap='balaace' >
+    <image class='lableImg' src='../../images/personal/personal07.jpg' ></image>
+
+    <text class='labeltitle'>(测试)充值100</text>
+    <image class='leftdirection' src='../../images/leftdirection.png' ></image>
+</view> -->
+
+<view class='line'></view>

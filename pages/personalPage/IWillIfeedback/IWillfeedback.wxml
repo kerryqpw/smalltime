@@ -1,0 +1,33 @@
+<!--pages/questionfeedback/questionfeedback.wxml-->
+
+<view class='item'>
+    <text class='itemtag'>用户名：</text>
+    <input bindblur='usernameInput' name="username" class='username' placeholder='请输入用户名'></input>
+
+</view>
+
+
+<view class='item'>
+    <text class='itemtag'>联系方式：</text> 
+    <input bindblur='contactInput' name="contactinfo"  class='phone' placeholder='请输入联系方式'></input>
+
+</view>
+
+<textarea bindblur='textarea' class='questioninfo' placeholder='请输入反馈信息……'></textarea>
+
+<view class='submitbutton'>
+    <text class='submitbuttontext' bindtap='sendfeedback'>发布</text>
+</view>
+
+<view class='questionlisttitle'>
+    <text class='questionlisttitletext'>常见问题</text>
+</view>
+
+ <view wx:for="{{questionList}}" wx:for-index="idx" wx:for-item="item">
+      <view class='questionitem' catchtap='questiondetail' data-id='{{item.id}}'  data-content='{{item.content}}' data-reply='{{item.reply}}'>
+        <text class='questionitemtext'>{{idx+1}}.{{item.content}}</text>
+      </view>
+
+</view>
+
+

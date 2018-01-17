@@ -1,0 +1,44 @@
+/* pages/classify/classify.wxss */
+
+page{
+  background: #efeff4;
+}
+
+.top{
+  width: 100%;height: auto;
+    background: #efeff4;
+}
+
+.searchimg{
+  width: 6.9vw;height: 6.9vw;
+}
+
+.classfyitem{
+  width: 100vw;height: 42vw;margin-top: 2vw;background: #efeff4;
+   box-shadow: 0px 4px -1px 0px #adadb1; 
+}
+
+.classfyImage{
+   width: 100vw;height: 42vw;
+}
+
+.classfytwoList{
+ width: 100vw;
+ height: auto;background: #efeff4;
+ 
+}
+
+.classfytwoItem{
+ position: relative;width: 83.7vw;background:  #efeff4;margin-left: 7.7vw;
+ height: 27.1vw;margin-top: 2.5vw
+}
+
+.classfytwoItemImg{
+  width: 83.7vw;
+  height: 28vw;
+}
+
+.classfytwoText{
+  position: absolute;left: 26vw;top: 10vw;
+  color: #fff;font-size: 7.73vw;letter-spacing: 1vw
+}

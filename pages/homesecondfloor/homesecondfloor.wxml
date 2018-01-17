@@ -1,0 +1,33 @@
+<view class='top'>
+  <image class='topimg' src='../../images/homesecondfloor/homesecondfloor01.jpg'></image>
+
+</view>
+<view class='productInfo'>
+  <image class='productInfoimg' src='../../images/homesecondfloor/homesecondfloor02.jpg'></image>
+</view>
+
+<view class='submitbutton'>
+  <image class='submitbuttonimg' src='../../images/homesecondfloor/homesecondfloor03.jpg'></image>
+</view>
+
+<view class='productintroduceWrap01'>
+  <image class='productintroduceimg01' src='../../images/homesecondfloor/homesecondfloor04.jpg'></image>
+</view>
+
+<view class='productintroduceWrap02'>
+  <image class='productintroduceimg02' src='../../images/homesecondfloor/homesecondfloor05.jpg'></image>
+</view>
+
+<view class='productintroduceWrap03'>
+  <image class='productintroduceimg03' src='../../images/homesecondfloor/homesecondfloor06.jpg'></image>
+</view>
+
+<view class='submitbutton'>
+  <image class='submitbuttonimg' src='../../images/homesecondfloor/homesecondfloor07.jpg'></image>
+</view>
+
+<view class='productintroduceWrap04'>
+  <image class='productintroduceimg04' src='../../images/homesecondfloor/homesecondfloor08.jpg'></image>
+</view>
+
+

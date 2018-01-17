@@ -1,0 +1,313 @@
+page{
+  background: #efeff4;
+}
+
+
+.topw01{
+  /* position: absolute; */
+  width: 100vw;
+  height: 79.07vw;
+  /* top: 41.2vw; */
+  /* left: 16.4vw */
+}
+
+
+.buyclick{
+  position:absolute;bottom:5vw;left:36vw;width:30vw;height:10vw;z-index:3434;
+  background: rgba(0,0, 0, 0);
+}
+
+
+.moreclick{
+  position:absolute;bottom:1vw;right:9vw;width:18vw;height:7vw;z-index:3434;
+   background: rgba(0,0, 0, 0);
+}
+
+.topw02{
+  /* position: absolute; */
+  width: 100vw;
+  height: 44.53vw;
+  /* top: 41.2vw; */
+  /* left: 39.07vw */
+}
+
+
+
+/**推荐商品2*/
+
+.topw1{
+    /* margin-top: 20.67vw;  */
+   position: absolute; 
+   left: 55.2vw;
+   top: 1.6vw;  
+   width:32vw;
+   height:32vw; 
+   display: block; 
+   /* margin: 0 auto  */
+}
+
+.twolevenlist1{
+position: relative;
+ background: #fff;
+ width: 93.6vw;height:35.2vw; 
+ /* text-align: center;      */
+ margin: 0 auto;
+ margin-top: 2.67vw;
+ 
+}
+
+.title4{
+  position: absolute;
+  left: 4vw;
+  font-size: 4.26vw;
+  top: 4.33vw;
+  display: inline-block;
+  font-family: 微软雅黑;
+  letter-spacing: 0vw;
+  
+  
+}
+.title5{
+  position:absolute; 
+  font-size: 3.46vw; 
+  color: #858181;
+  top: 11.17vw;
+  left: 4vw;
+  width: 49.8vw;
+  line-height: 4.5vw;
+    font-family: 微软雅黑;
+
+
+}
+
+.topw2{
+  position: absolute; 
+   left: 4.3vw;
+   top: 24.13vw;  
+   width:23.73vw;
+   height:6vw; 
+   /* display: block;  */
+   display: inline-block;
+}
+
+
+/** 平行瀑布流 */
+
+/* .topicitemleft{
+  position: relative;width: 45.06vw;height:74.66vw;background: #fff;margin-left: 3.46vw;margin-top: 3.46vw;display: inline-block;border-radius: 1vw;
+}
+
+.topicitemright{
+  position: relative;width: 45.06vw;height:74.66vw;background: #fff;margin-left: 3.46vw;margin-top: 3.46vw;display: inline-block;border-radius: 1vw;
+} */
+/* 
+.huatiitemimg{
+   position: absolute;width: 45.06vw;height: 45.06vw;top: 0
+}
+
+.huatititle{
+  position: absolute;top: 48vw;left: 3.46vw;font-size: 3.86vw;display: inline-block;
+}
+
+.heart{
+  position: absolute;color:red;font-size:5.5vw;text-align: center;top: -1.5vw;
+}
+
+.huatiauthor{
+  position: absolute;left: 3.46vw;top: 57.33vw;font-size: 2.93vw;
+}
+
+.huatiattentioncount{
+  position: absolute;left: 3.46vw;bottom: 3.73vw;font-size:4.4vw;color: #e0e0e0;
+}
+
+.huatiitemeattion{
+  position: absolute;width: 3.6vw;height: 3.6vw;right: 10.4vw;bottom: 4.8vw;
+}
+
+.huatiitemeattiontag{
+  position: absolute;bottom: 4.53vw;right: 3.46vw;font-size: 2.93vw;color: #9d9d9d;
+} */
+
+
+/** 瀑布流 */
+
+.topiclistleft{
+    position: relative;width: 45.06vw;height:auto;background: #efeff4;margin: 0;margin-left: 3.46vw;margin-top: 0vw;display: inline-block;border-radius: 1vw;vertical-align: top; 
+}
+
+.topiclistright{
+    position: relative;width: 45.06vw;height:auto;background: #efeff4;margin: 0;margin-left: 3.46vw;margin-top: 0vw;display: inline-block;border-radius: 1vw;vertical-align: top;
+}
+
+.topicitemleft{
+  position: relative;width: 45.06vw;height:auto;background: #fff;display: inline-block;border-radius: 1vw;
+  margin-top: 3.46vw;
+}
+
+.topicitemright{
+   position: relative;width: 45.06vw;height:auto;background: #fff;display: inline-block;border-radius: 1vw; margin-top: 3.46vw
+}
+
+.topicinfo{
+  position: relative;width: 45.06vw;height:29.86vw;background: #fff;display: inline-block;
+  vertical-align: bottom;border-radius:1.93vw 
+}
+
+.huatititle{
+  position: absolute;top: 3.33vw;left: 3.46vw;font-size: 4.26vw;display: inline-block;
+  font-weight: 600;
+}
+
+.heart{
+  position: absolute;color:red;font-size:5.5vw;text-align: center;top: -1.5vw;
+}
+
+
+.huatiauthor{
+  position: absolute;left: 3.46vw;top: 12.93vw;font-size: 2.93vw;
+}
+
+.huatiattentioncount{
+  position: absolute;left: 3.46vw;top: 21.33vw;font-size:4.4vw;color: #dfdfdf ;
+}
+
+.huatiitemeattion{
+  position: absolute;width: 3.6vw;height: 3.6vw;right: 10.4vw;top: 21.86vw;
+}
+
+.huatiitemeattiontag{
+  position: absolute;top: 21.86vw;right: 3.46vw;font-size: 2.93vw;color: #9f9f9f;
+}
+
+
+.topicimg1{
+  position: relative;width: 45.06vw;display: inline-block;
+  vertical-align: bottom;border-radius: 1.33vw
+}
+
+.topicimg2{
+  position: relative;width: 45.06vw;display: inline-block;
+  vertical-align: bottom;border-radius: 1.33vw
+}
+
+.topicimg3{
+    position: relative;width: 45.06vw;height:44.93vw;display: inline-block;
+  vertical-align: bottom
+}
+
+.topicimg4{
+    position: relative;width: 45.06vw;height:54vw;bdisplay: inline-block;
+  vertical-align: bottom
+}
+
+.topicimg5{
+    position: relative;width: 45.06vw;height:51.33vw;bdisplay: inline-block;
+  vertical-align: bottom
+}
+
+
+
+/**首页弹出按钮*/
+
+.mystory{
+  width: 19.2vw;height: 7.06vw;position: fixed;left: 40vw;bottom: 2.66vw;
+}
+
+.mystoryimg{
+  width: 19.2vw;height: 7.06vw;
+}
+
+
+
+/**首页弹出*/
+
+.homedialogwrap{
+  width:100vw;height:100vh;background:rgba(0, 0, 0, 0.5);position: fixed;
+   bottom: 0; 
+}
+
+.homedialog{
+  width:82.26vw;height:90.54vh;position: fixed;
+   bottom: 7.2vw;left: 8.93vw; 
+}
+
+.homedialogwrapin{
+  width:82.26vw;height:90.54vh;position: relative;background:#fff;
+}
+
+.mystorytopimg{
+  width: 82.26vw;height: 28.53vh;margin: 0
+}
+
+.mystoryInfo{
+  width: 82.26vw;height:56.01vh;position: relative;background: #fff;margin-top: -0.9vh
+}
+
+.storytitle{
+  position: absolute;font-size: 4vw;letter-spacing: 0.23vw;left: 23.86vw;top: 2.06vh
+}
+
+.storyimglistWrap{
+  position: absolute;height: 17vw;width: 74.13vw;top: 6.96vh;right: 5.26vw;background: #fff;
+}
+
+.storyimglist{
+  position: relative;height: 17vw;width: 74.13vw;display: flex;flex-direction: row;
+
+}
+
+.storyimgitem{
+  height:17vw;width: 17vw;margin-left: 1.53vw;
+}
+
+.mystorycameraimg{
+  position: absolute;width: 9.86vw;height: 9.86vw;top: 20.91vh;left: 35.6vw;
+}
+
+.mystorylineimg01{
+  position: absolute;width: 74vw;height: 0.8vw;top: 40.26vw;
+}
+
+.mystorylineimg02{
+  position: absolute;width: 74vw;height: 0.8vw;top: 46vw;
+}
+
+.mystorylineimg03{
+  position: absolute;width: 74vw;height: 0.8vw;top: 52.33vw;
+}
+
+.mystorylineimg04{
+  position: absolute;width: 74vw;height: 0.8vw;bottom: 7.06vw;
+}
+
+.mystorylineimg05{
+  position: absolute;width: 74vw;height: 0.8vw;bottom: 0.06vw;
+}
+
+.mystoryaddress{
+  position: absolute;font-size: 3.06vw;top: 41.5vw;left: 37.4vw
+}
+
+.mystorydata{
+  position: absolute;font-size: 3.06vw;top: 47.5vw;left: 37.4vw
+}
+
+.storytextarea{
+ position: absolute;width:82.26vw ;height: 14.33vw;font-size: 2.93vw;top: 54.26vw;
+  padding-left: 5.86vw;
+}
+
+.mystoryverticalline01{
+  position: absolute;height: 5.86vw;width: 2.4vw;bottom:1.06vw;left:39.23vw; 
+}
+
+.close{
+  position: absolute;font-size: 3.46vw;font-weight: bold;color: #000;left: 17.33vw;
+  bottom: 1.46vw;
+}
+
+.confirm{
+  position: absolute;font-size: 3.46vw;font-weight: bold;color: #000;right: 17.33vw;
+  bottom: 1.46vw;
+}

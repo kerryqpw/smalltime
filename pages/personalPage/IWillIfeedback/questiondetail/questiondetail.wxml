@@ -1,0 +1,8 @@
+<view class='title'>
+    <text class='zt'>Q:{{content}}</text>
+</view>
+
+<view class='title1'>
+    <text class='zt1'>A:{{reply}}</text>
+</view>
+

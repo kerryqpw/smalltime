@@ -1,0 +1,24 @@
+<view class='addressitem1'>
+<text class='zt1'>手机号码：</text>
+<!-- <text class='zt2'>13508077458</text> -->
+<input class='newinput1' bindblur='contactInput' placeholder='请输入11位手机号码'></input>
+</view>
+
+<view class='addressitem2'>
+ <input bindblur='contaccodetInput' class='newinput' placeholder='请输入验证码'></input>
+ <view class='addressitem3' wx:if="{{isshowverification=='getCode'}}" catchtap='getcode'  > 
+  <text class='zt4' >获取验证码</text>
+  </view>
+
+    <view class='addressitem3' wx:if="{{isshowverification=='countDown'}}"  >
+  <text class='zt4' >倒计时{{last_time}}s</text>
+  </view> 
+
+ 
+
+</view>
+
+
+<view class='submitbutton'>
+<text class='submitbuttontext' catchtap='submit' >确认修改</text>
+</view>

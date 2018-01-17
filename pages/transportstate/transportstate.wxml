@@ -1,0 +1,40 @@
+<!--pages/transportstate/transportstate.wxml-->
+<view class='top'>
+  <text class='toporderid'>订单编号：  548768548632156</text>
+  <text class='topoderdate'>预计送达：12月25号</text>
+</view>
+
+<view class='orderstatelist'>
+      <view class='orderstatelistleft'>
+          <view class='orderstatespotWrap'>
+            <image class='orderstatespotcurrent'></image>
+          </view>
+          <view class='verticalline' style='margin-top: 0.1vw;'></view>
+           <image class='orderstatespot' style='margin-top: -2.5vw;' ></image>
+          <view class='verticalline' style='margin-top: -1vw;'></view>
+           <image class='orderstatespot' ></image>
+      </view>
+
+      <view class='orderstatelistright'>
+          <view class='orderstateitem' style='margin-top: 4.26vw;'>
+              <text class='orderstateitemstatetext'>【成都市】 您的订单已电子签收（已在配送员处采用  无纸化方式签收本订单）。感谢您在京东购物，欢迎  再次光临.</text>
+              <text class='orderstateitemstatedate'>2017-12-12 12:40:17</text>
+
+          </view>
+
+           <view class='orderstateitem'>
+              <text class='orderstateitemstatetext' style='color: #6d6d6d;'>【【成都市】 您的订单正在配送途中，请您准备签收 （配 送员：高智能 ，联系电话：17761227380），  感谢您的 耐心</text>
+              <text class='orderstateitemstatedate' style='color: #6d6d6d;'>2017-12-12 12:40:17</text>
+
+          </view>
+
+
+           <view class='orderstateitem'>
+              <text class='orderstateitemstatetext' style='color: #6d6d6d;'>您提交了订单，请等待系统确认!</text>
+              <text class='orderstateitemstatedate' style='color: #6d6d6d;'>2017-12-12 12:40:17</text>
+
+          </view>          
+
+      </view>
+</view>
+

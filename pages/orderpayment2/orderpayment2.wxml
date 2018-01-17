@@ -1,0 +1,78 @@
+
+<wxs module="filters" src="../../wxs/addmul.wxs"></wxs>
+
+
+<view class='topAddressInfo' catchtap='toeditAddressInfo'>
+   <image class='addressicon' src='../../images/paypage01/location.png'></image>
+   <text class='consignee'>收货人:{{consignee}}</text>
+   <text class='phone'>{{tel_number}}</text>
+   <text class='addressdetail'>收货地址:{{province_name}}{{city_name}}{{county_name}}{{detail_info}}</text>
+   <image class='topleftdirection' src='../../images/paypage01/leftdirection.jpg'></image>
+
+
+</view>
+<image class='addressInfo' src='../../images/paypage01/paypage01.jpg'></image>
+
+<view class='item' style='margin-top:1.6vw'>
+    <text class='itemtext' >商品可用优惠券</text>
+    <image class='itemleftdirection' src='../../images/paypage01/leftdirection.jpg'></image>
+</view>
+<view class='item'>
+    <text class='itemtext' >商品合计</text>
+    <text class='pricecount' >￥{{totalordermoney}}</text>
+</view>
+
+<view class='item'>
+    <text class='itemtext' >运费</text>
+    <text class='pricecount' >￥{{carriage}}</text>
+</view>
+
+<view class='item'>
+    <text class='itemtext' >优惠券</text>
+    <text class='pricecount' >￥{{favorable_price}}</text>
+</view>
+
+
+<view class='item' style='margin-top:4.53vw'>
+    <text class='itemtext' >余额支付</text>
+    <checkbox class='checkclass' value="" />
+</view>
+<view class='item'>
+    <image class='wexinicon' src='../../images/paypage01/paypage02.jpg'></image>
+    <text class='itemtext' style='left:11.06vw' >微信支付</text>
+    <checkbox class='checkclass' value="" checked="checked"/>
+</view>
+
+
+
+
+ <view wx:for="{{shoppinglist}}" wx:for-index="idx" wx:for-item="item">
+
+    <view class='pruductInfo'>
+      <text class='pruductName'>{{item.goods_name}}</text>
+      <text class='pruductDes'>{{item.title}}</text>
+
+      <text class='pruductPrice'><text style='font-size:2.66vw'>￥</text> {{item.market_price}}
+      </text>
+
+      <text class='pruductCount'>x{{item.total}}</text>
+
+      <image class='pruductImg' src='{{item.thumb}}'></image>
+    </view>
+
+</view>
+
+
+
+
+
+<view class='bottom'>
+    <view class='bottomWrap'>
+        <text class='totalCount'>合计 <text style='font-size:2.66vw;color: #ff4400;'>￥</text> <text style='color:#ff4400;'>{{summationmoney}}</text>
+        <!-- .<text style='font-size:2.66vw;color: #ff4400;'>00</text> -->
+        </text>
+            <view class='paybutton'></view>
+            <text class='paytext' catchtap='topaysuccess'>去付款</text>
+    </view>
+
+</view>

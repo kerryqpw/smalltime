@@ -1,0 +1,310 @@
+/* pages/orderdetail/orderdetail.wxss */
+page{
+    background: #efeff4;
+}
+.top{
+  width: 100vw;height: 23.06vw;position: relative;
+}
+
+.topimg{
+  width: 100vw;height: 23.06vw;
+}
+
+
+.time{
+  position: absolute;width: 5.46vw;height: 5.46vw;left: 5.46vw;top: 8.53vw;
+}
+
+
+.orderstate{
+  position: absolute;font-size: 3.86vw;top: 8.53vw;left: 14.66vw;display: inline-block;
+}
+
+.topImg{
+  position: absolute;width: 8.4vw;height: 8.4vw;background: #fff;top: 4.13vw;right: 9.6vw;
+  border-radius: 50%
+}
+
+.shopname{
+  position: absolute;display: inline-block;font-size: 3.86vw;bottom: 4.73vw;right: 9.9vw;
+}
+
+.addressInfo{
+  position: relative;width:100vw;height: 19.46vw;margin-top: 2.4vw;background: #fff;
+}
+
+.addressImg{
+   position: absolute;width: 4.93vw;height: 4.26vw;left: 1.6vw;top: 6.66vw;
+}
+
+.consignee{
+   position: absolute;font-size: 3.2vw;left: 7.73vw;top: 3.2vw;display: inline-block;
+   color: #2d2d2d;
+}
+
+.consigneename{
+   position: absolute;font-size: 3.2vw;top: 3.2vw;left: 19.33vw;display: inline-block;
+   color: #2d2d2d;
+}
+
+.phone{
+   position: absolute;font-size: 3.2vw;top: 3.2vw;left: 34.93vw;display: inline-block;
+   color: #2d2d2d;
+}
+
+.consigneeaddress{
+   position: absolute;width: 86.66vw;font-size: 3.2vw;top: 3.2vw;left: 7.73vw;top: 7.73vw;
+   display: inline-block;letter-spacing: 0.1vw;color: #2d2d2d;
+}
+
+.logisticsWrap{
+   width: 100vw;height: 10vw;background: #fff;margin-top: 0.26vw;position: relative
+}
+
+.consigneeaddress{
+   position: absolute;width: 86.66vw;font-size: 3.2vw;top: 3.2vw;left: 7.73vw;top: 7.73vw;
+   display: inline-block;letter-spacing: 0.1vw;
+}
+
+.logisticsWrap{
+   width: 100vw;height: 10vw;background: #fff;margin-top: 0.26vw;position: relative;
+   border-bottom: 0.23vw solid #dbdbdb;
+}
+
+.logisticsimg{
+  position: absolute;width: 4.8vw;height: 4.13vw;left: 1.73vw;top:2.53vw;
+}
+
+.logisticstext{
+  position: absolute;font-size: 3.2vw;left: 7.73vw;top: 2.66vw;
+  color: #2d2d2d;
+}
+
+.leftdirection{
+  position: absolute;width: 4.2vw;height: 3.26vw;right: 5.6vw;top: 3.46vw;
+}
+
+.shoptabWrap{
+  position: relative;width: 100vw;height: 11.33vw;background: #fff;margin-top: 2.53vw;
+}
+
+.shopimg{
+  position: absolute;width: 4.93vw;height: 4.93vw;top: 3.1vw;left: 2.66vw;
+}
+
+.shoptext{
+  position: absolute;font-size: 3.2vw;left: 10.26vw;top: 3.53vw;
+  color: #2d2d2d;
+}
+
+.leftdirection02{
+  position: absolute;width: 4.2vw;height: 3.26vw;left: 54.93vw;top: 4.16vw;display: inline-block
+}
+
+.contactservice{
+  position: absolute;font-size: 3.2vw;top: 3.53vw;right:3.96vw;
+  color: #2d2d2d;
+}
+
+
+
+.shopinglistitem{
+  position: relative;width: 100vw;height: 24vw;background: #f8f8f8;
+}
+
+.shopinglistimg{
+ position: absolute;width: 21.06vw;height: 21.06vw;left: 3.33vw;top: 1.6vw;
+}
+
+.joinshopingimg{
+ position: absolute;width: 18.53vw;height: 5.86vw;right: 3.06vw;
+ bottom: 2.66vw;
+
+}
+
+.evaluatebutton{
+  position: absolute;width: 10vw;height: 5.86vw;right: 3.06vw;
+ bottom: 2.66vw;border: 0.25vw solid #858181;font-size: 3.2vw;
+ padding-left: 3.8vw;padding-top: 1.5vw;border-radius: 2vw;color: #000
+}
+
+.evaluatebuttongray{
+  position: absolute;width: 10vw;height: 5.86vw;right: 3.06vw;
+ bottom: 2.66vw;border: 0.25vw solid #858181;font-size: 3.2vw;
+ padding-left: 3.8vw;padding-top: 1.5vw;border-radius: 2vw;color: #3d3d3d;
+ background: #ededed;
+}
+
+.orderproductname{
+  position: absolute;font-size: 3.2vw; left:26.93vw;top: 1.6vw;
+}
+
+.orderproductprice{
+  position: absolute;font-size: 3.2vw;left:26.93vw;bottom: 2.4vw;
+}
+
+.ordertimeandid{
+  position:relative;width: 100vw;height: 15.73vw;background: #fff;margin-top: 3.2vw;
+}
+
+.orderidtext{
+  position:absolute;font-size: 3.2vw;left:3.33vw;top: 2.86vw;display: inline-block
+}
+
+.orderbill{
+  position:absolute;font-size: 3.2vw;left:3.33vw;top: 9vw;display: inline-block
+}
+
+.payway{
+  position: relative;width: 100vw;height: 10.66vw;margin-top: 0.4vw;background: #fff;
+}
+
+.paywaytext{
+  position: absolute;font-size: 3.2vw;left:3.33vw;top: 2.8vw;
+}
+
+.logisticsinfo{
+  position: relative;font-size: 3.2vw;width: 100vw;height: 17.73vw;background: #fff;
+  margin-top: 0.4vw;
+}
+
+.logisticswaytext{
+  position: absolute;font-size: 3.2vw;left:3.33vw;top: 3.6vw;
+}
+
+.logisticsdatetext{
+  position: absolute;font-size: 3.2vw;left:3.33vw;top: 9.86vw;
+}
+
+.pricelist{
+  position: relative;width:100vw;height: 22vw;background: #fff;margin-top: 0.4vw;
+}
+
+.pricetag1{
+  position: absolute;font-size: 3.2vw;left: 3.33vw;top: 3.33vw
+}
+
+.pricetag2{
+  position: absolute;font-size: 3.2vw;left: 3.33vw;top:9.46vw
+}
+
+.pricetag3{
+  position: absolute;font-size: 3.2vw;left: 3.33vw;top: 15.6vw;
+}
+
+.pricecout1{
+  position: absolute;font-size: 3.2vw;right: 3.06vw;top: 3.33vw
+}
+
+.pricecout2{
+  position: absolute;font-size: 3.2vw;right: 3.06vw;top:9.46vw
+}
+
+.pricecout3{
+  position: absolute;font-size: 3.2vw;right: 3.06vw;top: 15.6vw;
+}
+
+
+.pricecounttotal{
+ position: relative;width: 100vw;height: 8vw;background: #fff;margin-top: 0.4vw;
+}
+
+.pricecounttotaltext{
+  position: absolute;font-size: 3.2vw;right: 3.06vw;top: 2.16vw;
+}
+
+.recommendproduct{
+  position: relative;width: 100vw;height: 12.66vw;text-align: center;
+}
+
+.recommendproducttext{
+  margin-top: 4.66vw;font-size: 4.26vw;display: inline-block
+}
+
+
+
+/**推荐商品*/
+
+.topw1{
+    /* margin-top: 20.67vw;  */
+   position: absolute; 
+   left: 57.2vw;
+   top: 2.1vw;  
+   width:31vw;
+   height:31vw; 
+   display: block; 
+   /* margin: 0 auto  */
+}
+.twolevenlist1{
+position: relative;
+ background: #fff;
+ width: 93.6vw;height:35.2vw; 
+ /* text-align: center;      */
+ margin: 0 auto;
+ margin-top: 2.67vw;
+ 
+}
+
+.title4{
+  position: absolute;
+  left: 4vw;
+  font-size: 3.47vw;
+  top: 7.33vw;
+  display: inline-block;
+  font-family: 微软雅黑;
+  letter-spacing: 0.2vw;
+  
+  
+}
+.title5{
+  position:absolute; 
+  font-size: 2.93vw; 
+  font-family: 微软雅黑;
+  color: #858181;
+  top: 12.17vw;
+  left: 4vw;
+
+}
+
+.topw2{
+  position: absolute; 
+   left: 4.3vw;
+   top: 22.13vw;  
+   width:23.73vw;
+   height:6vw; 
+   /* display: block;  */
+   display: inline-block;
+}
+
+
+.twolevenlist2{
+position: relative;
+ background: #fff;
+ width: 93.6vw;height:6.4vw; 
+text-align: center;      
+ margin: 0 auto;
+ margin-top: 1.2vw;
+ 
+}
+
+.topw3{
+   position: absolute; 
+   left: 3.43vw;
+   top: 0.93vw;  
+   width:4.53vw;
+   height:4.53vw; 
+   /* display: block;  */
+   display: inline-block;
+}
+
+
+.title6{
+  position:absolute; 
+  font-size: 3.2vw; 
+  font-family: 微软雅黑;
+  color: #858181;
+  top: 1.07vw; 
+  left: 9.77vw;
+}
+
+
